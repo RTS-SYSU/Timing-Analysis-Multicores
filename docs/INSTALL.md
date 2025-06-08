@@ -33,7 +33,7 @@ docker build -t llvmtadocker:latest - < .devcontainer/Dockerfile
 docker run -i -d \
     -v `pwd`:/workspaces/llvmta:rw \
     -v `pwd`/build:/workspaces/llvmta/build:rw \
-    --name TAM llvmtadocker:latest
+    --name SYSU-TA llvmtadocker:latest
 ```
 
 ### 编译项目
@@ -41,7 +41,7 @@ docker run -i -d \
 使用如下命令进入容器
 
 ```bash
-docker exec -it TAM /bin/bash
+docker exec -it SYSU-TA /bin/bash
 ```
 
 > 需要注意的是，进入容器后默认用户为 root，为了避免权限问题，建议在容器中切换到普通用户进行编译，容器中自带一个名为 vscode 的普通用户，可以使用 `su vscode` 命令切换到该用户，并使用 `sudo chown -R vscode:vscode /workspaces/llvmta` 命令修改项目文件夹的权限

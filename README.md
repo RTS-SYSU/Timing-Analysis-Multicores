@@ -1,4 +1,5 @@
-# WCET Analysis for Multicore Real-time Systems
+# SYSU-TA  
+a WCET Analysis for Multicore Real-time Systems  
 
 <p align="center">
     <a href="https://github.com/RTS-SYSU" rel="nofollow">
@@ -13,7 +14,7 @@
     <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
 
-[TAM](https://github.com/RTS-SYSU/Timing-Analysis-Multicores) is a static analysis tool for WCET(Worst Case Execution Time) of real-time systems based on LLVM. It is developed based on the LLVM-TA - a WCET analysis for single core real-time systems.
+[SYSU-TA](https://github.com/RTS-SYSU/Timing-Analysis-Multicores) is a static analysis tool for WCET(Worst Case Execution Time) of real-time systems based on LLVM. It is developed based on the LLVM-TA - a WCET analysis for single core real-time systems.
 
 
 ## Design Goal
