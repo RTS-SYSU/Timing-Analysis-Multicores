@@ -1,0 +1,18 @@
+# Type: Normal
+fir2dim_init|Loop in file fir2dimc near line 85|BB#13:for.cond27<header><exiting>_BB#14:for.body30_BB#15:for.inc35<latch>|64
+fir2dim_init|Loop in file fir2dimc near line 80|BB#9:for.cond15<header><exiting>_BB#10:for.body18_BB#11:for.inc23<latch>|144
+fir2dim_init|Loop in file fir2dimc near line 75|BB#5:for.cond3<header><exiting>_BB#6:for.body6_BB#7:for.inc11<latch>|64
+fir2dim_init|Loop in file fir2dimc near line 70|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|36
+fir2dim_pin_down|Loop in file fir2dimc near line 108|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|4
+fir2dim_pin_down|Loop in file fir2dimc near line 126|BB#19:for.cond25<header><exiting>_BB#20:for.body27_BB#21:for.inc30<latch>|4
+fir2dim_pin_down|Loop in file fir2dimc near line 136|BB#29:for.cond44<header><exiting>_BB#30:for.body46_BB#31:for.inc48<latch>|16
+fir2dim_pin_down|Loop in file fir2dimc near line 132|BB#25:for.cond37<header><exiting>_BB#26:for.body39_BB#27:for.inc41<latch>|6
+fir2dim_pin_down|Loop in file fir2dimc near line 123|BB#17:for.cond21<header><exiting>_BB#18:for.body23_BB#19:for.cond25_BB#22:for.end32_BB#23:for.inc34<latch>_BB#20:for.body27_BB#21:for.inc30|4
+fir2dim_pin_down|Loop in file fir2dimc near line 119|BB#13:for.cond14<header><exiting>_BB#14:for.body16_BB#15:for.inc18<latch>|6
+fir2dim_pin_down|Loop in file fir2dimc near line 115|BB#9:for.cond7<header><exiting>_BB#10:for.body9_BB#11:for.inc11<latch>|9
+fir2dim_pin_down|Loop in file fir2dimc near line 106|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#6:for.end_BB#7:for.inc4<latch>_BB#4:for.body3_BB#5:for.inc|4
+fir2dim_main|Loop in file fir2dimc near line 178|BB#13:for.cond20<header><exiting>_BB#14:for.body22_BB#15:for.inc26<latch>|3
+fir2dim_main|Loop in file fir2dimc near line 174|BB#9:for.cond11<header><exiting>_BB#10:for.body13_BB#11:for.inc17<latch>|3
+fir2dim_main|Loop in file fir2dimc near line 170|BB#5:for.cond6<header><exiting>_BB#6:for.body8_BB#7:for.inc<latch>|3
+fir2dim_main|Loop in file fir2dimc near line 161|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.cond6_BB#6:for.body8_BB#7:for.inc_BB#8:for.end_BB#9:for.cond11_BB#10:for.body13_BB#11:for.inc17_BB#12:for.end19_BB#13:for.cond20_BB#14:for.body22_BB#15:for.inc26_BB#16:for.end28_BB#17:for.inc30<latch>|4
+fir2dim_main|Loop in file fir2dimc near line 158|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.cond6_BB#6:for.body8_BB#7:for.inc_BB#8:for.end_BB#9:for.cond11_BB#10:for.body13_BB#11:for.inc17_BB#12:for.end19_BB#13:for.cond20_BB#14:for.body22_BB#15:for.inc26_BB#16:for.end28_BB#17:for.inc30_BB#18:for.end32_BB#19:for.inc33<latch>|4

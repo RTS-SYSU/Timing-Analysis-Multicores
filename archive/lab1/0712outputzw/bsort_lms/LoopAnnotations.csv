@@ -1,0 +1,8 @@
+# Type: Normal
+bsort_BubbleSort|Loop in file bsort.c near line 97|BB#3:for.cond1<header><exiting>_BB#4:for.body3<exiting>_BB#6:if.end_BB#7:if.then7_BB#8:if.end14_BB#9:for.inc<latch>|99
+bsort_BubbleSort|Loop in file bsort.c near line 94|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#6:if.end_BB#7:if.then7_BB#8:if.end14_BB#9:for.inc_BB#5:if.then_BB#10:for.end.loopexit_BB#11:for.end<exiting>_BB#13:if.end16_BB#14:for.inc17<latch>|99
+lms_calc|Loop in file lms.c near line 127|BB#9:for.cond16<header><exiting>_BB#10:for.body18_BB#11:for.inc22<latch>|21
+lms_calc|Loop in file lms.c near line 121|BB#5:for.cond6<header><exiting>_BB#6:for.body8_BB#7:for.inc12<latch>|21
+lms_calc|Loop in file lms.c near line 113|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|20
+lms_main|Loop in file lms.c near line 144|BB#5:for.cond2<header><exiting>_BB#6:for.body4_BB#7:for.inc9<latch>|201
+lms_main|Loop in file lms.c near line 139|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|21

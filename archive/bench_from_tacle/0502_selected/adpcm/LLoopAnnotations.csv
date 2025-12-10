@@ -1,0 +1,20 @@
+# Type: Normal
+my_sin|Loop in file adpcm.c near line 305|BB#7:while.cond13<header><exiting>_BB#8:while.body15<latch>|-1
+my_sin|Loop in file adpcm.c near line 295|BB#4:while.cond1<header><exiting>_BB#5:while.body3<latch>|0
+my_sin|Loop in file adpcm.c near line 292|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|0
+encode|Loop in file adpcm.c near line 348|BB#5:for.cond19<header><exiting>_BB#6:for.body21_BB#7:for.inc24<latch>|22
+encode|Loop in file adpcm.c near line 337|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10
+filtez|Loop in file adpcm.c near line 651|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|5
+quantl|Loop in file adpcm.c near line 680|BB#1:for.cond<header><exiting>_BB#2:for.body<exiting>_BB#4:if.end_BB#5:for.inc<latch>|-1
+upzero|Loop in file adpcm.c near line 732|BB#2:for.cond<header><exiting>_BB#3:for.body_BB#4:for.inc<latch>|6
+upzero|Loop in file adpcm.c near line 737|BB#7:for.cond3<header><exiting>_BB#8:for.body5_BB#10:if.else10_BB#9:if.then9_BB#11:if.end_BB#12:for.inc15<latch>|6
+decode|Loop in file adpcm.c near line 596|BB#5:for.cond47<header><exiting>_BB#6:for.body49_BB#7:for.inc54<latch>|10
+decode|Loop in file adpcm.c near line 581|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10
+reset|Loop in file adpcm.c near line 635|BB#13:for.cond21<header><exiting>_BB#14:for.body23_BB#15:for.inc26<latch>|11
+reset|Loop in file adpcm.c near line 633|BB#9:for.cond14<header><exiting>_BB#10:for.body16_BB#11:for.inc18<latch>|23
+reset|Loop in file adpcm.c near line 626|BB#5:for.cond4<header><exiting>_BB#6:for.body6_BB#7:for.inc11<latch>|6
+reset|Loop in file adpcm.c near line 619|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|6
+adpcm_main|Loop in file adpcm.c near line 856|BB#9:for.cond13<header><exiting>_BB#10:for.body15_BB#11:for.inc21<latch>|2
+adpcm_main|Loop in file adpcm.c near line 853|BB#5:for.cond3<header><exiting>_BB#6:for.body5_BB#7:for.inc10<latch>|2
+adpcm_main|Loop in file adpcm.c near line 839|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|3
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|-1

@@ -1,0 +1,12 @@
+adpcm_dec
+binarysearch
+fir2dim
+fmref
+huff_dec
+insertsort
+jfdctint
+ndes
+st
+statemate
+cover
+iir

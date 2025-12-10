@@ -1,0 +1,11 @@
+# Type: Normal
+g723_enc_quan|Loop in file g723_encc near line 252|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.then3_BB#5:if.end_BB#6:if.end4_BB#7:for.inc<latch>|3
+g723_enc_predictor_zero|Loop in file g723_encc near line 281|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|5
+g723_enc_update|Loop in file g723_encc near line 566|BB#66:for.cond276<header><exiting>_BB#67:for.body279_BB#68:for.inc285<latch>|5
+g723_enc_update|Loop in file g723_encc near line 550|BB#53:for.cond<header><exiting>_BB#54:for.body_BB#56:if.else241_BB#55:if.then231_BB#57:if.end251_BB#58:if.then254_BB#60:if.else267_BB#59:if.then261_BB#61:if.end273_BB#62:if.end274_BB#63:for.inc<latch>|6
+g723_enc_init_state|Loop in file g723_encc near line 806|BB#5:for.cond3<header><exiting>_BB#6:for.body5_BB#7:for.inc8<latch>|6
+g723_enc_init_state|Loop in file g723_encc near line 800|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|2
+g723_enc_init|Loop in file g723_encc near line 821|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|256
+g723_enc_return|Loop in file g723_encc near line 832|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|256
+g723_enc_main|Loop in file g723_encc near line 866|BB#5:while.cond<header><exiting>_BB#6:while.body<latch>|0
+g723_enc_main|Loop in file g723_encc near line 858|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|256

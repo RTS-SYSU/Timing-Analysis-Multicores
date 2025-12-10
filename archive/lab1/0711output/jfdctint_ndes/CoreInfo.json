@@ -1,0 +1,18 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "jfdctint_main"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "ndes_main"
+            }
+        ]
+    }
+]

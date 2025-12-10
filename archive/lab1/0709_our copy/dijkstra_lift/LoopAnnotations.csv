@@ -1,0 +1,12 @@
+# Type: Normal
+dijkstra_enqueue|Loop in file dijkstra.c near line 108|BB#5:while.cond<header><exiting>_BB#6:while.body<latch>|313
+dijkstra_find|Loop in file dijkstra.c near line 158|BB#11:for.cond13<header><exiting>_BB#12:for.body15_BB#13:if.then20_BB#14:lor.lhs.false_BB#15:if.then29<exiting>_BB#17:if.end40_BB#18:if.end41_BB#19:if.end42_BB#20:for.inc43<latch>|100
+dijkstra_find|Loop in file dijkstra.c near line 155|BB#9:while.cond<header><exiting>_BB#10:while.body_BB#11:for.cond13_BB#12:for.body15_BB#13:if.then20_BB#14:lor.lhs.false_BB#15:if.then29<exiting>_BB#17:if.end40_BB#18:if.end41_BB#19:if.end42_BB#20:for.inc43_BB#21:for.end45<latch>|100
+dijkstra_find|Loop in file dijkstra.c near line 140|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|100
+dijkstra_main|Loop in file dijkstra.c near line 180|BB#1:for.cond<header><exiting>_BB#2:for.body<exiting>_BB#4:if.else_BB#5:if.end_BB#6:for.inc<latch>|20
+lift_check_level|Loop in file liftlibcontrol.c near line 131|BB#11:for.cond4<header><exiting>_BB#12:for.body6_BB#13:for.inc10<latch>|14
+lift_check_level|Loop in file liftlibcontrol.c near line 124|BB#2:for.cond<header><exiting>_BB#3:for.body<exiting>_BB#5:if.end_BB#6:for.inc<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 36|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc9<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 30|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4
+lift_ctrl_get_vals|Loop in file liftlibio.c near line 56|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10
+lift_main|Loop in file lift.c near line 119|BB#1:while.body<header><exiting>_BB#3:if.end<latch>|1000

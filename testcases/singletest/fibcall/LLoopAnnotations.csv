@@ -1,0 +1,2 @@
+# Type: Normal
+fib|Loop in file fibcallc near line 50|BB#1:for.cond<header>_BB#2:land.rhs_BB#3:land.end<exiting>_BB#4:for.body_BB#5:for.inc<latch>|0

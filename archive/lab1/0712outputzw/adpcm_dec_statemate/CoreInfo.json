@@ -1,0 +1,18 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "adpcm_dec_main"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "statemate_main"
+            }
+        ]
+    }
+]

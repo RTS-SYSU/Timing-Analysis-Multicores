@@ -1,0 +1,4 @@
+# Type: Normal
+iir_main|Loop in file iir.c near line 140|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4
+jfdctint_jpeg_fdct_islow|Loop in file jfdctint.c near line 228|BB#5:for.cond77<header><exiting>_BB#6:for.body79_BB#7:for.inc164<latch>|8
+jfdctint_jpeg_fdct_islow|Loop in file jfdctint.c near line 176|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|8

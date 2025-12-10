@@ -1,0 +1,6 @@
+# Type: Normal
+binarysearch_binary_search|Loop in file binarysearch.c near line 120|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#6:if.else8_BB#5:if.then6_BB#7:if.end_BB#3:if.then_BB#8:if.end10<latch>|4
+expint|Loop in file expint.c near line 89|BB#2:for.cond<header><exiting>_BB#3:for.body<exiting>_BB#5:if.end_BB#6:for.inc<latch>|100
+expint|Loop in file expint.c near line 147|BB#13:for.cond28<header><exiting>_BB#14:for.body30_BB#15:for.inc33<latch>|49
+expint|Loop in file expint.c near line 131|BB#9:for.cond16<header><exiting>_BB#10:for.body18_BB#11:if.then23_BB#12:if.else27_BB#13:for.cond28_BB#16:for.end35_BB#17:if.end38_BB#18:for.inc40<latch>_BB#14:for.body30_BB#15:for.inc33|100
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|31

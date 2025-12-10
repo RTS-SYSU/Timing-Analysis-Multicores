@@ -1,0 +1,3 @@
+# Type: Normal
+insertsort_main|Loop in file insertsort.c near line 97|BB#3:while.cond1<header><exiting>_BB#4:while.body4<latch>|9
+insertsort_main|Loop in file insertsort.c near line 89|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:while.cond1_BB#5:while.end_BB#6:if.then_BB#7:if.end_BB#8:if.then14_BB#9:if.end15<latch>_BB#4:while.body4|9

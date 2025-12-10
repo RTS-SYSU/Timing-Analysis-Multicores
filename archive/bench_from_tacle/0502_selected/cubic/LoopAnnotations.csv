@@ -1,0 +1,7 @@
+# Type: Normal
+cubic_main|Loop in file cubic.c near line 112|BB#7:for.cond10<header><exiting>_BB#8:for.body12_BB#9:for.inc<latch>|5
+cubic_main|Loop in file cubic.c near line 110|BB#5:for.cond7<header><exiting>_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14<latch>_BB#8:for.body12_BB#9:for.inc|5
+cubic_main|Loop in file cubic.c near line 108|BB#3:for.cond4<header><exiting>_BB#4:for.body6_BB#5:for.cond7_BB#12:for.end16_BB#13:for.inc17<latch>_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14_BB#8:for.body12_BB#9:for.inc|7
+cubic_main|Loop in file cubic.c near line 106|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond4_BB#14:for.end19_BB#15:for.inc20<latch>_BB#4:for.body6_BB#5:for.cond7_BB#12:for.end16_BB#13:for.inc17_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14_BB#8:for.body12_BB#9:for.inc|5
+basicmath___ieee754_sqrtf|Loop in file wcclibm.c near line 518|BB#11:for.cond<header><exiting>_BB#12:for.body_BB#13:for.inc<latch>|0
+basicmath___ieee754_sqrtf|Loop in file wcclibm.c near line 534|BB#18:while.cond<header><exiting>_BB#19:while.body_BB#20:if.then29_BB#21:if.end33<latch>|25

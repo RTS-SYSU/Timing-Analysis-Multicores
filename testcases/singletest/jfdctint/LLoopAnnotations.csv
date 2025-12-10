@@ -1,0 +1,5 @@
+# Type: Normal
+jfdctint_init|Loop in file jfdctintc near line 153|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|64
+jfdctint_return|Loop in file jfdctintc near line 166|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|64
+jfdctint_jpeg_fdct_islow|Loop in file jfdctintc near line 243|BB#5:for.cond77<header><exiting>_BB#6:for.body79_BB#7:for.inc164<latch>|8
+jfdctint_jpeg_fdct_islow|Loop in file jfdctintc near line 190|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|8

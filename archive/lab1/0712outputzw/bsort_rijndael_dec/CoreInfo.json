@@ -1,0 +1,18 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "bsort_main"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "rijndael_dec_main"
+            }
+        ]
+    }
+]

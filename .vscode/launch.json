@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/workspaces/llvmta/build/bin/llvmta",
+            "args": [
+                "-disable-tail-calls",
+                "-float-abi=hard",
+                "-mattr=-neon,+vfp2",
+                "-O0",
+                "--ta-muarch-type=inorder",
+                "--ta-strict=false",
+                "--ta-memory-type=separatecaches",
+                "--ta-loop-bounds-file='/workspaces/llvmta/testcases/test/LoopAnnotations.csv'",
+                "--ta-loop-lowerbounds-file='/workspaces/llvmta/testcases/test/LLoopAnnotations_Arm|NotOptimized|HardFloat.csv'",
+                "--core-info='/workspaces/llvmta/testcases/test/CoreInfo.json'",
+                "--core-numbers=4",
+                "--shared-cache-persistence-analysis=true",
+                "--time-anomaly=true",
+                "--ta-multicore-type=zhangw",
+                "--ta-l2cache-persistence=elementwise",
+                "--ta-dcache-persistence=elementwise",
+                "--ta-icache-persistence=elementwise",
+                "--ta-dcache-linesize=16",
+                "--ta-dcache-assoc=2",
+                "--ta-dcache-nsets=8",
+                "--ta-icache-linesize=16",
+                "--ta-icache-assoc=2",
+                "--ta-icache-nsets=8",
+                "--ta-l2cache-linesize=16",
+                "--ta-l2cache-assoc=2",
+                "--ta-l2cache-nsets=32",
+                "--ta-mem-latency=100",
+                "--ta-L2-latency=5",
+                "--ta-num-callsite-tokens=-1",
+                "--ta-num-callee-tokens=-1",
+                "--ta-num-loop-tokens=0",
+                "--ta-loop-peel=0",
+                "-debug-only=",
+                "optimized.ll"
+            ],
+            "stopAtEntry": false,
+            "cwd": "/workspaces/llvmta/testcases/dirforgdb",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "run gdb"
+        }
+    ]
+}

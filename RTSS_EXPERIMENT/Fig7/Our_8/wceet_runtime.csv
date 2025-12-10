@@ -1,0 +1,5 @@
+,adpcm_dec_main,binarysearch_main,cover_main,ndes_main
+adpcm_dec_main,0,0,0,0
+binarysearch_main,0,0,0,0.117083
+cover_main,0,0,0,0.000346
+ndes_main,0,0.061075,0.256794,0

@@ -1,0 +1,7 @@
+# Type: Normal
+fft_bit_reduct|Loop in file fft.c near line 132|BB#5:while.cond<header>_BB#6:land.rhs_BB#7:land.end<exiting>_BB#8:while.body<latch>|10
+fft_bit_reduct|Loop in file fft.c near line 155|BB#16:for.cond27<header><exiting>_BB#17:for.body29_BB#18:for.inc49<latch>|512
+fft_bit_reduct|Loop in file fft.c near line 185|BB#22:for.cond55<header><exiting>_BB#23:for.body57_BB#24:for.inc59<latch>|2048
+fft_bit_reduct|Loop in file fft.c near line 149|BB#14:for.cond20<header><exiting>_BB#15:for.body22_BB#16:for.cond27_BB#19:for.end51_BB#20:for.inc52<latch>_BB#17:for.body29_BB#18:for.inc49|512
+fft_bit_reduct|Loop in file fft.c near line 145|BB#12:while.cond17<header><exiting>_BB#13:while.body19_BB#14:for.cond20_BB#21:for.end54_BB#22:for.cond55_BB#23:for.body57_BB#24:for.inc59_BB#25:for.end60<latch>_BB#15:for.body22_BB#16:for.cond27_BB#19:for.end51_BB#20:for.inc52_BB#17:for.body29_BB#18:for.inc49|10
+fft_bit_reduct|Loop in file fft.c near line 118|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.end_BB#5:while.cond_BB#6:land.rhs_BB#7:land.end_BB#9:while.end_BB#10:for.inc<latch>_BB#8:while.body|1024

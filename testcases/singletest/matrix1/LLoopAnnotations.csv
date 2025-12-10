@@ -1,0 +1,8 @@
+# Type: Normal
+matrix1_pin_down|Loop in file matrix1c near line 105|BB#9:for.cond8<header><exiting>_BB#10:for.body10_BB#11:for.inc12<latch>|100
+matrix1_pin_down|Loop in file matrix1c near line 101|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc5<latch>|100
+matrix1_pin_down|Loop in file matrix1c near line 97|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|100
+matrix1_return|Loop in file matrix1c near line 125|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|100
+matrix1_main|Loop in file matrix1c near line 154|BB#5:for.cond4<header><exiting>_BB#6:for.body6_BB#7:for.inc<latch>|10
+matrix1_main|Loop in file matrix1c near line 149|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.cond4_BB#6:for.body6_BB#7:for.inc_BB#8:for.end_BB#9:for.inc10<latch>|10
+matrix1_main|Loop in file matrix1c near line 145|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.cond4_BB#6:for.body6_BB#7:for.inc_BB#8:for.end_BB#9:for.inc10_BB#10:for.end12_BB#11:for.inc13<latch>|10

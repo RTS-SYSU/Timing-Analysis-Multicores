@@ -1,0 +1,17 @@
+adpcm_dec
+cjpeg_wrbmp
+gsm_dec
+ndes
+statemate
+binarysearch
+fir2dim
+iir
+insertsort
+fir
+ndes
+jfdctint
+huff_dec
+fmref
+dijkstra
+fft
+st

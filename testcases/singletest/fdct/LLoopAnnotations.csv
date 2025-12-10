@@ -1,0 +1,3 @@
+# Type: Normal
+fdct_fdct|Loop in file fdctc near line 165|BB#5:for.cond94<header><exiting>_BB#6:for.body97_BB#7:for.inc216<latch>|0
+fdct_fdct|Loop in file fdctc near line 91|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|0

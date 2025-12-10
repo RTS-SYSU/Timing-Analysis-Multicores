@@ -1,0 +1,22 @@
+# Type: Normal
+huff_enc_write_bin_val|Loop in file huff_enc.c near line 207|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#7:if.else17_BB#6:if.then16_BB#8:if.end18_BB#9:for.inc<latch>|-1
+huff_enc_write_header|Loop in file huff_enc.c near line 271|BB#8:for.cond12<header><exiting>_BB#9:for.body15_BB#10:if.then19_BB#11:if.end23_BB#12:for.inc24<latch>|256
+huff_enc_write_header|Loop in file huff_enc.c near line 288|BB#23:for.cond41<header><exiting>_BB#24:for.body44_BB#25:if.then49_BB#27:if.else54_BB#26:if.then52_BB#28:if.end56_BB#29:if.end62_BB#30:for.inc63<latch>|257
+huff_enc_write_header|Loop in file huff_enc.c near line 280|BB#15:for.cond27<header><exiting>_BB#16:for.body30_BB#17:if.then34_BB#18:if.else35_BB#19:if.end36_BB#20:for.inc37<latch>|256
+huff_enc_write_header|Loop in file huff_enc.c near line 257|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.end_BB#5:for.inc<latch>|256
+huff_enc_swapi|Loop in file huff_enc.c near line 330|BB#1:do.body<header>_BB#2:do.cond<latch><exiting>|-1
+huff_enc_qsort|Loop in file huff_enc.c near line 390|BB#12:do.body10<header>_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17<latch><exiting>|-1
+huff_enc_qsort|Loop in file huff_enc.c near line 386|BB#7:do.body<header>_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end<latch><exiting>|-1
+huff_enc_qsort|Loop in file huff_enc.c near line 385|BB#6:while.body5<header>_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18<exiting>_BB#18:if.end21<latch>|-1
+huff_enc_qsort|Loop in file huff_enc.c near line 368|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#6:while.body5_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18_BB#18:if.end21_BB#17:if.then20_BB#19:while.end_BB#20:if.then24_BB#21:if.else27_BB#22:if.end31<latch>|-1
+huff_enc_build_tree_encoding|Loop in file huff_enc.c near line 452|BB#15:while.cond25<header><exiting>_BB#16:while.body27_BB#17:if.then38_BB#18:if.else_BB#19:if.end_BB#20:if.then50_BB#21:if.end52<latch>|-1
+huff_enc_build_tree_encoding|Loop in file huff_enc.c near line 446|BB#9:for.cond15<header>_BB#10:land.rhs_BB#11:land.end<exiting>_BB#12:for.body21_BB#13:for.inc22<latch>|-1
+huff_enc_build_tree_encoding|Loop in file huff_enc.c near line 436|BB#6:while.cond<header><exiting>_BB#7:while.body<latch>|-1
+huff_enc_build_tree_encoding|Loop in file huff_enc.c near line 425|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|257
+huff_enc_encode_codes_table|Loop in file huff_enc.c near line 510|BB#9:for.cond21<header><exiting>_BB#10:for.body24_BB#11:for.inc38<latch>|31
+huff_enc_encode_codes_table|Loop in file huff_enc.c near line 497|BB#3:for.cond<header><exiting>_BB#4:for.body_BB#5:for.inc<latch>|31
+huff_enc_create_codes_table|Loop in file huff_enc.c near line 540|BB#7:for.cond4<header><exiting>_BB#8:for.body6_BB#9:for.inc10<latch>|32
+huff_enc_create_codes_table|Loop in file huff_enc.c near line 538|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.cond4_BB#8:for.body6_BB#9:for.inc10_BB#10:for.end12_BB#11:for.inc15<latch>|257
+huff_enc_create_codes_table|Loop in file huff_enc.c near line 534|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|32
+huff_enc_main|Loop in file huff_enc.c near line 572|BB#2:while.cond<header><exiting>_BB#3:while.body<latch>|-1
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|-1

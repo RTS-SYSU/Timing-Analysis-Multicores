@@ -1,0 +1,19 @@
+# Type: Normal
+ndes_des|Loop in file ndes.c near line 179|BB#28:for.cond73<header><exiting>_BB#29:for.body76_BB#30:for.inc95<latch>|32
+ndes_des|Loop in file ndes.c near line 165|BB#21:for.cond52<header><exiting>_BB#22:for.body55_BB#24:cond.false_BB#23:cond.true_BB#25:cond.end_BB#26:for.inc64<latch>|16
+ndes_des|Loop in file ndes.c near line 158|BB#17:for.cond26<header><exiting>_BB#18:for.body29_BB#19:for.inc48<latch>|32
+ndes_des|Loop in file ndes.c near line 148|BB#12:for.cond16<header><exiting>_BB#13:for.body19_BB#14:for.inc22<latch>|16
+ndes_des|Loop in file ndes.c near line 141|BB#8:for.cond3<header><exiting>_BB#9:for.body5_BB#10:for.inc13<latch>|28
+ndes_des|Loop in file ndes.c near line 132|BB#2:for.cond<header><exiting>_BB#3:for.body_BB#4:for.inc<latch>|31
+ndes_ks|Loop in file ndes.c near line 359|BB#11:for.cond20<header><exiting>_BB#12:for.body22_BB#13:for.inc53<latch>|16
+ndes_ks|Loop in file ndes.c near line 350|BB#6:for.cond<header><exiting>_BB#7:for.body_BB#8:for.inc<latch>|2
+ndes_cyfun|Loop in file ndes.c near line 328|BB#13:for.cond84<header><exiting>_BB#14:for.body87_BB#15:for.inc89<latch>|32
+ndes_cyfun|Loop in file ndes.c near line 315|BB#9:for.cond53<header><exiting>_BB#10:for.body56_BB#11:for.inc81<latch>|8
+ndes_cyfun|Loop in file ndes.c near line 305|BB#5:for.cond40<header><exiting>_BB#6:for.body42_BB#7:for.inc50<latch>|4
+ndes_cyfun|Loop in file ndes.c near line 293|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+cubic_main|Loop in file cubic.c near line 112|BB#7:for.cond10<header><exiting>_BB#8:for.body12_BB#9:for.inc<latch>|5
+cubic_main|Loop in file cubic.c near line 110|BB#5:for.cond7<header><exiting>_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14<latch>_BB#8:for.body12_BB#9:for.inc|5
+cubic_main|Loop in file cubic.c near line 108|BB#3:for.cond4<header><exiting>_BB#4:for.body6_BB#5:for.cond7_BB#12:for.end16_BB#13:for.inc17<latch>_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14_BB#8:for.body12_BB#9:for.inc|7
+cubic_main|Loop in file cubic.c near line 106|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond4_BB#14:for.end19_BB#15:for.inc20<latch>_BB#4:for.body6_BB#5:for.cond7_BB#12:for.end16_BB#13:for.inc17_BB#6:for.body9_BB#7:for.cond10_BB#10:for.end_BB#11:for.inc14_BB#8:for.body12_BB#9:for.inc|5
+basicmath___ieee754_sqrtf|Loop in file wcclibm.c near line 518|BB#11:for.cond<header><exiting>_BB#12:for.body_BB#13:for.inc<latch>|0
+basicmath___ieee754_sqrtf|Loop in file wcclibm.c near line 534|BB#18:while.cond<header><exiting>_BB#19:while.body_BB#20:if.then29_BB#21:if.end33<latch>|25

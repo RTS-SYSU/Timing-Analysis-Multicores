@@ -1,0 +1,12 @@
+bitonic
+fac
+quicksort
+bitcount
+st
+fft
+audiobeam
+dijkstra
+mpeg2
+petrinet
+rijndael_dec
+rijndael_enc

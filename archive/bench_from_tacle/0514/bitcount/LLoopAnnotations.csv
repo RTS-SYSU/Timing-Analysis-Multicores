@@ -1,0 +1,5 @@
+# Type: Normal
+bitcount_bit_count|Loop in file bitcnt_1.c near line 32|BB#2:do.body<header>_BB#3:do.cond<latch><exiting>|3
+bitcount_bit_shifter|Loop in file bitcount.c near line 52|BB#1:for.cond<header>_BB#2:land.rhs_BB#3:land.end<exiting>_BB#4:for.body_BB#5:for.inc<latch>|31
+bitcount_main|Loop in file bitcount.c near line 98|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.body3_BB#14:sw.bb17_BB#13:sw.bb15_BB#12:sw.bb13_BB#11:sw.bb11_BB#10:sw.bb9_BB#9:sw.bb7_BB#8:sw.bb5_BB#7:sw.bb_BB#15:sw.default_BB#16:sw.epilog_BB#17:for.inc<latch>|10
+bitcount_main|Loop in file bitcount.c near line 96|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#18:for.end_BB#19:for.inc20<latch>_BB#4:for.body3_BB#5:for.body3_BB#14:sw.bb17_BB#13:sw.bb15_BB#12:sw.bb13_BB#11:sw.bb11_BB#10:sw.bb9_BB#9:sw.bb7_BB#8:sw.bb5_BB#7:sw.bb_BB#15:sw.default_BB#16:sw.epilog_BB#17:for.inc|10

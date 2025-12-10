@@ -1,0 +1,12 @@
+# Type: Normal
+quicksort_str|Loop in file quicksort.c near line 148|BB#12:do.body10<header>_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17<latch><exiting>|1
+quicksort_str|Loop in file quicksort.c near line 143|BB#7:do.body<header>_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end<latch><exiting>|1
+quicksort_str|Loop in file quicksort.c near line 142|BB#6:while.body5<header>_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18<exiting>_BB#18:if.end21<latch>|0
+quicksort_str|Loop in file quicksort.c near line 128|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#6:while.body5_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18_BB#18:if.end21_BB#17:if.then20_BB#19:while.end_BB#20:if.then24_BB#21:if.else27_BB#22:if.end31<latch>|0
+quicksort_vec|Loop in file quicksort.c near line 197|BB#12:do.body10<header>_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17<latch><exiting>|1
+quicksort_vec|Loop in file quicksort.c near line 192|BB#7:do.body<header>_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end<latch><exiting>|1
+quicksort_vec|Loop in file quicksort.c near line 191|BB#6:while.body5<header>_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18<exiting>_BB#18:if.end21<latch>|1
+quicksort_vec|Loop in file quicksort.c near line 177|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#6:while.body5_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18_BB#18:if.end21_BB#17:if.then20_BB#19:while.end_BB#20:if.then24_BB#21:if.else27_BB#22:if.end31<latch>|0
+quicksort_strcmp|Loop in file quicksortstdlib.c near line 31|BB#1:while.cond<header>_BB#2:land.rhs_BB#3:land.end<exiting>_BB#4:while.body<latch>|0
+quicksort_swapi|Loop in file quicksortstdlib.c near line 78|BB#1:do.body<header>_BB#2:do.cond<latch><exiting>|20
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|0

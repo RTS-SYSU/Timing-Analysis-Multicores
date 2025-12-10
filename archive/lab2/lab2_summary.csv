@@ -1,0 +1,57 @@
+assoc=2
+ly_total
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+fir2dim_main,0,0,0
+ndes_main,4615192,4292765,4398836
+
+zw_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,513100,328900,1139600
+
+our_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,218700,207200,125800
+
+intra
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,3663068,3354168,3541953
+
+
+assoc=4
+ly_total
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+fir2dim_main,0,0,0
+ndes_main,4615192,4292765,4398836
+
+zw_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,526700,325100,1141100
+
+our_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,200100,232400,22600
+
+intra
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,3607574,3203296,3358977
+
+
+assoc=8
+ly_total
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+fir2dim_main,0,0,0
+ndes_main,4250601,4292765,3385601
+
+zw_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,526700,325100,1141100
+
+our_wceet
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,1500,232400,2400
+
+intra
+Unnamed: 0,cover_main,dijkstra_main,fir2dim_main
+ndes_main,3606049,3203296,3327553
+
+

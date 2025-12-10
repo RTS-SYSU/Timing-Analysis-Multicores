@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+pushd "/workspaces/llvmta/build" || echo "Unable to compile"
+    echo "compiling..."
+    ninja -j4 || exit
+popd || exit

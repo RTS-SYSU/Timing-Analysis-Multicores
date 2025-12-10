@@ -1,0 +1,6 @@
+# Type: Normal
+lift_check_level|Loop in file liftlibcontrol.c near line 131|BB#11:for.cond4<header><exiting>_BB#12:for.body6_BB#13:for.inc10<latch>|14
+lift_check_level|Loop in file liftlibcontrol.c near line 124|BB#2:for.cond<header><exiting>_BB#3:for.body<exiting>_BB#5:if.end_BB#6:for.inc<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 36|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc9<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 30|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4
+lift_ctrl_get_vals|Loop in file liftlibio.c near line 56|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10

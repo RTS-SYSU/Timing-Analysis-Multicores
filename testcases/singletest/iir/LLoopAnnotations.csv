@@ -1,0 +1,7 @@
+# Type: Normal
+iir_init|Loop in file iirc near line 102|BB#13:for.cond16<header><exiting>_BB#14:for.body19_BB#15:for.inc24<latch>|32
+iir_init|Loop in file iirc near line 97|BB#9:for.cond8<header><exiting>_BB#10:for.body10_BB#11:for.inc13<latch>|100
+iir_init|Loop in file iirc near line 87|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc5<latch>|8
+iir_init|Loop in file iirc near line 83|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|25
+iir_return|Loop in file iirc near line 114|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|8
+iir_main|Loop in file iirc near line 140|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4

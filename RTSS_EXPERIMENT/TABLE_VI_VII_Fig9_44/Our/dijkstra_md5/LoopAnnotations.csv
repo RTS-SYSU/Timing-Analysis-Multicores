@@ -1,0 +1,15 @@
+# Type: Normal
+dijkstra_enqueue|Loop in file dijkstra.c near line 108|BB#5:while.cond<header><exiting>_BB#6:while.body<latch>|313
+dijkstra_find|Loop in file dijkstra.c near line 158|BB#11:for.cond13<header><exiting>_BB#12:for.body15_BB#13:if.then20_BB#14:lor.lhs.false_BB#15:if.then29<exiting>_BB#17:if.end40_BB#18:if.end41_BB#19:if.end42_BB#20:for.inc43<latch>|100
+dijkstra_find|Loop in file dijkstra.c near line 155|BB#9:while.cond<header><exiting>_BB#10:while.body_BB#11:for.cond13_BB#12:for.body15_BB#13:if.then20_BB#14:lor.lhs.false_BB#15:if.then29<exiting>_BB#17:if.end40_BB#18:if.end41_BB#19:if.end42_BB#20:for.inc43_BB#21:for.end45<latch>|100
+dijkstra_find|Loop in file dijkstra.c near line 140|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|100
+dijkstra_main|Loop in file dijkstra.c near line 180|BB#1:for.cond<header><exiting>_BB#2:for.body<exiting>_BB#4:if.else_BB#5:if.end_BB#6:for.inc<latch>|20
+md5_update|Loop in file md5.c near line 305|BB#4:for.cond<header><exiting>_BB#5:for.body_BB#6:for.inc<latch>|0
+md5_memcpy|Loop in file md5.c near line 487|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|55
+md5_decode|Loop in file md5.c near line 474|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+md5_memset|Loop in file md5.c near line 354|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|208
+md5_encode|Loop in file md5.c near line 457|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+md5_memset_x|Loop in file md5.c near line 507|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|64
+md5_R_RandomUpdate|Loop in file md5.c near line 543|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+md5_InitRandomStruct|Loop in file md5.c near line 579|BB#1:while.body<header><exiting>_BB#3:if.end<latch>|256
+md5_main|Loop in file md5.c near line 617|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|10

@@ -1,0 +1,34 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "powerwindow_main"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "adpcm_dec_main"
+            }
+        ]
+    },
+    {
+        "core": 2,
+        "tasks": [
+            {
+                "function": "cover_main"
+            }
+        ]
+    },
+    {
+        "core": 3,
+        "tasks": [
+            {
+                "function": "fir2dim_main"
+            }
+        ]
+    }
+]

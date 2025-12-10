@@ -1,0 +1,6 @@
+,cover_main,dijkstra_main,duff_main,fir2dim_main,ndes_main
+cover_main,0,0,0,0,81.667439
+dijkstra_main,0,0,0,0,67.093126
+duff_main,0,0,0,0,52.228028
+fir2dim_main,0,0,0,0,71.280098
+ndes_main,81.667439,67.093126,52.228028,71.280098,0

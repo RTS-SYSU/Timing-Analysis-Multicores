@@ -1,0 +1,18 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "radio_control_task"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "check_mega128_values_task"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+# Type: Normal
+cjpeg_wrbmp_finish_output_bmp|Loop in file cjpeg_wrbmpc near line 120|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.end_BB#5:for.inc<latch>|30
+cjpeg_wrbmp_write_colormap|Loop in file cjpeg_wrbmpc near line 174|BB#18:for.cond37<header><exiting>_BB#19:for.body40_BB#20:if.then46_BB#21:if.end48_BB#22:for.inc49<latch>|256
+cjpeg_wrbmp_write_colormap|Loop in file cjpeg_wrbmpc near line 186|BB#25:for.cond53<header><exiting>_BB#26:for.body56_BB#27:if.then62_BB#28:if.end64_BB#29:for.inc65<latch>|512
+cjpeg_wrbmp_write_colormap|Loop in file cjpeg_wrbmpc near line 144|BB#3:for.cond<header><exiting>_BB#4:for.body_BB#5:if.then12_BB#6:if.end_BB#7:for.inc<latch>|256
+cjpeg_wrbmp_write_colormap|Loop in file cjpeg_wrbmpc near line 158|BB#10:for.cond14<header><exiting>_BB#11:for.body17_BB#12:if.then29_BB#13:if.end31_BB#14:for.inc32<latch>|256
+cjpeg_wrbmp_initInput|Loop in file inputc near line 83|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|256
+cjpeg_wrbmp_initInput|Loop in file inputc near line 81|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc7<latch>|3
+memcpy|Loop in file memory.c near line 8|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|0

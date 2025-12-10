@@ -1,0 +1,7 @@
+bitonic
+cubic
+fac
+md5
+quicksort
+recursion
+minver

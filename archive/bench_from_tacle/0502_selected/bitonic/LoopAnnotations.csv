@@ -1,0 +1,3 @@
+# Type: Normal
+bitonic_merge|Loop in file bitonic.c near line 98|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+bitonic_main|Loop in file bitonic.c near line 146|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|32

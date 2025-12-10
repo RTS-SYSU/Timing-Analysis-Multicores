@@ -1,0 +1,15 @@
+# Type: Normal
+filterbank_main|Loop in file filterbank.c near line 93|BB#13:while.cond<header><exiting>_BB#14:while.body<latch>|2
+filterbank_main|Loop in file filterbank.c near line 86|BB#7:for.cond5<header><exiting>_BB#8:for.body8_BB#9:for.inc26<latch>|8
+filterbank_main|Loop in file filterbank.c near line 83|BB#5:for.cond1<header><exiting>_BB#6:for.body4_BB#7:for.cond5_BB#8:for.body8_BB#9:for.inc26_BB#10:for.end28_BB#11:for.inc29<latch>|8
+filterbank_main|Loop in file filterbank.c near line 79|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|256
+filterbank_core|Loop in file filterbank.c near line 154|BB#37:for.cond77<header><exiting>_BB#38:for.body80_BB#39:for.inc83<latch>|256
+filterbank_core|Loop in file filterbank.c near line 147|BB#30:for.cond56<header><exiting>_BB#31:for.cond56<exiting>_BB#32:for.body64_BB#33:for.inc71<latch>|1
+filterbank_core|Loop in file filterbank.c near line 144|BB#28:for.cond51<header><exiting>_BB#29:for.body54_BB#30:for.cond56_BB#31:for.cond56_BB#34:for.end73_BB#35:for.inc74<latch>_BB#32:for.body64_BB#33:for.inc71|1
+filterbank_core|Loop in file filterbank.c near line 139|BB#24:for.cond41<header><exiting>_BB#25:for.body44_BB#26:for.inc48<latch>|32
+filterbank_core|Loop in file filterbank.c near line 136|BB#20:for.cond33<header><exiting>_BB#21:for.body36_BB#22:for.inc38<latch>|32
+filterbank_core|Loop in file filterbank.c near line 131|BB#16:for.cond24<header><exiting>_BB#17:for.body27_BB#18:for.inc30<latch>|32
+filterbank_core|Loop in file filterbank.c near line 125|BB#9:for.cond8<header><exiting>_BB#10:for.cond8<exiting>_BB#11:for.body12_BB#12:for.inc18<latch>|1
+filterbank_core|Loop in file filterbank.c near line 122|BB#7:for.cond4<header><exiting>_BB#8:for.body6_BB#9:for.cond8_BB#10:for.cond8_BB#13:for.end20_BB#14:for.inc21<latch>_BB#11:for.body12_BB#12:for.inc18|1
+filterbank_core|Loop in file filterbank.c near line 114|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.cond4_BB#8:for.body6_BB#9:for.cond8_BB#10:for.cond8_BB#13:for.end20_BB#14:for.inc21_BB#11:for.body12_BB#12:for.inc18_BB#15:for.end23_BB#16:for.cond24_BB#17:for.body27_BB#18:for.inc30_BB#19:for.end32_BB#20:for.cond33_BB#21:for.body36_BB#22:for.inc38_BB#23:for.end40_BB#24:for.cond41_BB#25:for.body44_BB#26:for.inc48_BB#27:for.end50_BB#28:for.cond51_BB#29:for.body54_BB#30:for.cond56_BB#31:for.cond56_BB#34:for.end73_BB#35:for.inc74_BB#32:for.body64_BB#33:for.inc71_BB#36:for.end76_BB#37:for.cond77_BB#38:for.body80_BB#39:for.inc83_BB#40:for.end85_BB#41:for.inc86<latch>|8
+filterbank_core|Loop in file filterbank.c near line 110|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|256

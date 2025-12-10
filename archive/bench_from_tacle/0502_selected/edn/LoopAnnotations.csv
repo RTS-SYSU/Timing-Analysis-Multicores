@@ -1,0 +1,14 @@
+# Type: Normal
+vec_mpy1|Loop in file edn.c near line 35|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|150
+mac|Loop in file edn.c near line 49|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|150
+fir|Loop in file edn.c near line 69|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|50
+fir|Loop in file edn.c near line 67|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc8<latch>|50
+fir_no_red_ld|Loop in file edn.c near line 93|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|16
+fir_no_red_ld|Loop in file edn.c near line 89|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#6:for.end_BB#7:for.inc31<latch>_BB#4:for.body3_BB#5:for.inc|50
+latsynth|Loop in file edn.c near line 117|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|100
+iir1|Loop in file edn.c near line 136|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|50
+codebook|Loop in file edn.c near line 162|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+jpegdct|Loop in file edn.c near line 192|BB#5:for.cond7<header><exiting>_BB#6:for.body11_BB#7:for.inc<latch>|4
+jpegdct|Loop in file edn.c near line 191|BB#3:for.cond2<header><exiting>_BB#4:for.body6_BB#5:for.cond7_BB#8:for.end_BB#9:for.inc221<latch>_BB#6:for.body11_BB#7:for.inc|8
+jpegdct|Loop in file edn.c near line 190|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond2_BB#10:for.end224_BB#11:for.inc225<latch>_BB#4:for.body6_BB#5:for.cond7_BB#8:for.end_BB#9:for.inc221_BB#6:for.body11_BB#7:for.inc|2
+memcpy|Loop in file memory.c near line 8|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|400

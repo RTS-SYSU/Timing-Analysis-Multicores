@@ -1,0 +1,3 @@
+# Type: Normal
+prime_prime|Loop in file primec near line 103|BB#3:for.cond<header><exiting>_BB#4:for.body<exiting>_BB#6:if.end7_BB#7:for.inc<latch>|0
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|0

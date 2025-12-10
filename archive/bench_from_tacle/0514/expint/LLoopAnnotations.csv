@@ -1,0 +1,5 @@
+# Type: Normal
+expint|Loop in file expint.c near line 89|BB#2:for.cond<header><exiting>_BB#3:for.body<exiting>_BB#5:if.end_BB#6:for.inc<latch>|-1
+expint|Loop in file expint.c near line 147|BB#13:for.cond28<header><exiting>_BB#14:for.body30_BB#15:for.inc33<latch>|0
+expint|Loop in file expint.c near line 131|BB#9:for.cond16<header><exiting>_BB#10:for.body18_BB#11:if.then23_BB#12:if.else27_BB#13:for.cond28_BB#16:for.end35_BB#17:if.end38_BB#18:for.inc40<latch>_BB#14:for.body30_BB#15:for.inc33|100
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|-1

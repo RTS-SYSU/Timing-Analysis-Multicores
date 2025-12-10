@@ -1,0 +1,4 @@
+# Type: Normal
+basicmath_memcpy|Loop in file basicmath_libc.c near line 30|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4
+isqrt_usqrt|Loop in file isqrt.c near line 122|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.end_BB#5:for.inc<latch>|32
+isqrt_main|Loop in file isqrt.c near line 140|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1000

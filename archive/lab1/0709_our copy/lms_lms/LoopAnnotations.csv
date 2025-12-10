@@ -1,0 +1,6 @@
+# Type: Normal
+lms_calc|Loop in file lms.c near line 127|BB#9:for.cond16<header><exiting>_BB#10:for.body18_BB#11:for.inc22<latch>|21
+lms_calc|Loop in file lms.c near line 121|BB#5:for.cond6<header><exiting>_BB#6:for.body8_BB#7:for.inc12<latch>|21
+lms_calc|Loop in file lms.c near line 113|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|20
+lms_main|Loop in file lms.c near line 144|BB#5:for.cond2<header><exiting>_BB#6:for.body4_BB#7:for.inc9<latch>|201
+lms_main|Loop in file lms.c near line 139|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|21

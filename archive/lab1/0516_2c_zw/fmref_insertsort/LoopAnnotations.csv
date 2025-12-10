@@ -1,0 +1,14 @@
+# Type: Normal
+fmref_main|Loop in file fmref.c near line 115|BB#7:while.cond<header><exiting>_BB#8:while.body_BB#9:if.then5_BB#10:if.end6<latch>|2
+fmref_main|Loop in file fmref.c near line 106|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:if.then_BB#4:if.end_BB#5:for.inc<latch>|64
+fmref_init_lpf_data|Loop in file fmref.c near line 184|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#6:for.inc<latch>|64
+fmref_init_equalizer|Loop in file fmref.c near line 237|BB#9:for.cond11<header><exiting>_BB#10:for.body13_BB#12:cond.false_BB#11:cond.true_BB#13:cond.end_BB#14:for.inc18<latch>|10
+fmref_init_equalizer|Loop in file fmref.c near line 233|BB#5:for.cond2<header><exiting>_BB#6:for.body4_BB#7:for.inc8<latch>|11
+fmref_init_equalizer|Loop in file fmref.c near line 228|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|11
+fmref_get_floats|Loop in file fmref.c near line 165|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|200
+fmref_run_lpf|Loop in file fmref.c near line 199|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|64
+fmref_run_equalizer|Loop in file fmref.c near line 267|BB#5:for.cond12<header><exiting>_BB#6:for.body14_BB#7:for.inc18<latch>|10
+fmref_run_equalizer|Loop in file fmref.c near line 258|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|11
+fmref_fb_compact|Loop in file fmref.c near line 136|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|60
+insertsort_main|Loop in file insertsort.c near line 97|BB#3:while.cond1<header><exiting>_BB#4:while.body4<latch>|9
+insertsort_main|Loop in file insertsort.c near line 89|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:while.cond1_BB#5:while.end_BB#6:if.then_BB#7:if.end_BB#8:if.then14_BB#9:if.end15<latch>_BB#4:while.body4|9

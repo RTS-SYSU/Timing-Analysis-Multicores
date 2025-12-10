@@ -1,0 +1,18 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "st_main"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "st_main"
+            }
+        ]
+    }
+]

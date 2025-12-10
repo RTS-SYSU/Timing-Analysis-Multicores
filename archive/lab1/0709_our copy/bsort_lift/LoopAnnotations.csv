@@ -1,0 +1,9 @@
+# Type: Normal
+bsort_BubbleSort|Loop in file bsort.c near line 97|BB#3:for.cond1<header><exiting>_BB#4:for.body3<exiting>_BB#6:if.end_BB#7:if.then7_BB#8:if.end14_BB#9:for.inc<latch>|99
+bsort_BubbleSort|Loop in file bsort.c near line 94|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#6:if.end_BB#7:if.then7_BB#8:if.end14_BB#9:for.inc_BB#5:if.then_BB#10:for.end.loopexit_BB#11:for.end<exiting>_BB#13:if.end16_BB#14:for.inc17<latch>|99
+lift_check_level|Loop in file liftlibcontrol.c near line 131|BB#11:for.cond4<header><exiting>_BB#12:for.body6_BB#13:for.inc10<latch>|14
+lift_check_level|Loop in file liftlibcontrol.c near line 124|BB#2:for.cond<header><exiting>_BB#3:for.body<exiting>_BB#5:if.end_BB#6:for.inc<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 36|BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc9<latch>|14
+lift_ctrl_set_vals|Loop in file liftlibio.c near line 30|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|4
+lift_ctrl_get_vals|Loop in file liftlibio.c near line 56|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10
+lift_main|Loop in file lift.c near line 119|BB#1:while.body<header><exiting>_BB#3:if.end<latch>|1000

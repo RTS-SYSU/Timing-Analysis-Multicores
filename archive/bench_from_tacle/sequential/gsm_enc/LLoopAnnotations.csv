@@ -1,0 +1,18 @@
+# Type: Normal
+gsm_enc_Gsm_Coder|Loop in file gsm_enc.c near line 444|BB#3:for.cond9<header><exiting>_BB#4:for.body11_BB#6:cond.false_BB#5:cond.true_BB#7:cond.end_BB#8:for.inc<latch>|40
+gsm_enc_Gsm_Coder|Loop in file gsm_enc.c near line 422|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond9_BB#4:for.body11_BB#6:cond.false_BB#5:cond.true_BB#7:cond.end_BB#8:for.inc_BB#9:for.end_BB#10:for.inc24<latch>|4
+gsm_enc_Gsm_Preprocess|Loop in file gsm_enc.c near line 2028|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#10:cond.false40_BB#12:cond.false45_BB#14:cond.false50_BB#13:cond.true49_BB#15:cond.end52_BB#11:cond.true43_BB#16:cond.end54_BB#3:cond.true_BB#5:cond.false_BB#7:cond.false35_BB#6:cond.true34_BB#8:cond.end_BB#4:cond.true25_BB#9:cond.end38_BB#17:cond.end56_BB#19:cond.false62_BB#21:cond.false67_BB#20:cond.true66_BB#22:cond.end69_BB#18:cond.true60_BB#23:cond.end71_BB#25:cond.false90_BB#24:cond.true86_BB#26:cond.end91<latch>|160
+gsm_enc_Weighting_filter|Loop in file gsm_enc.c near line 493|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#4:cond.false_BB#6:cond.false47_BB#5:cond.true46_BB#7:cond.end_BB#3:cond.true_BB#8:cond.end48_BB#9:for.inc<latch>|40
+gsm_enc_RPE_grid_selection|Loop in file gsm_enc.c near line 661|BB#7:for.cond<header><exiting>_BB#8:for.body_BB#9:for.inc<latch>|13
+gsm_enc_APCM_quantization|Loop in file gsm_enc.c near line 771|BB#25:for.cond73<header><exiting>_BB#26:for.body76_BB#27:for.inc93<latch>|13
+gsm_enc_APCM_quantization|Loop in file gsm_enc.c near line 733|BB#13:for.cond19<header><exiting>_BB#14:for.body22_BB#15:if.then31_BB#16:if.end33_BB#17:for.inc34<latch>|6
+gsm_enc_APCM_quantization|Loop in file gsm_enc.c near line 719|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#7:cond.false8_BB#3:cond.true_BB#5:cond.false_BB#4:cond.true6_BB#6:cond.end_BB#8:cond.end10_BB#9:if.then_BB#10:if.end_BB#11:for.inc<latch>|13
+gsm_enc_APCM_inverse_quantization|Loop in file gsm_enc.c near line 810|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#4:cond.false_BB#3:cond.true_BB#5:cond.end<latch>|13
+gsm_enc_RPE_grid_positioning|Loop in file gsm_enc.c near line 862|BB#11:while.cond<header><exiting>_BB#12:while.body<latch>|0
+gsm_enc_RPE_grid_positioning|Loop in file gsm_enc.c near line 858|BB#8:do.body<header>_BB#9:do.cond<latch><exiting>|0
+gsm_enc_APCM_quantization_xmaxc_to_exp_mant|Loop in file gsm_enc.c near line 686|BB#5:while.cond<header><exiting>_BB#6:while.body<latch>|0
+gsm_enc_Calculation_of_the_LTP_parameters|Loop in file gsm_enc.c near line 1134|BB#36:for.cond368<header><exiting>_BB#37:for.body372<exiting>_BB#39:if.end382_BB#40:for.inc383<latch>|3
+gsm_enc_Calculation_of_the_LTP_parameters|Loop in file gsm_enc.c near line 1101|BB#28:for.cond336<header><exiting>_BB#29:for.body339_BB#30:for.inc347<latch>|40
+gsm_enc_Calculation_of_the_LTP_parameters|Loop in file gsm_enc.c near line 1029|BB#22:for.cond43<header><exiting>_BB#23:for.body46_BB#24:if.then326_BB#25:if.end328_BB#26:for.inc329<latch>|81
+gsm_enc_Calculation_of_the_LTP_parameters|Loop in file gsm_enc.c near line 1021|BB#18:for.cond31<header><exiting>_BB#19:for.body34_BB#20:for.inc40<latch>|40
+gsm_enc_Calculation_of_the_LTP_parameters|Loop in file gsm_enc.c near line 1003|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#7:cond.false8_BB#3:cond.true_BB#5:cond.false_BB#4:cond.true6_BB#6:cond.end_BB#8:cond.end10_BB#9:if.then_BB#10:if.end_BB#11:for.inc<latch>|40

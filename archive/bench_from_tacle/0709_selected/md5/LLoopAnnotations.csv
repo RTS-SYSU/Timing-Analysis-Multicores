@@ -1,0 +1,10 @@
+# Type: Normal
+md5_update|Loop in file md5.c near line 305|BB#4:for.cond<header><exiting>_BB#5:for.body_BB#6:for.inc<latch>|0
+md5_memcpy|Loop in file md5.c near line 487|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|0
+md5_decode|Loop in file md5.c near line 474|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+md5_memset|Loop in file md5.c near line 354|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|128
+md5_encode|Loop in file md5.c near line 457|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|2
+md5_memset_x|Loop in file md5.c near line 507|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|16
+md5_R_RandomUpdate|Loop in file md5.c near line 543|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|16
+md5_InitRandomStruct|Loop in file md5.c near line 579|BB#1:while.body<header><exiting>_BB#3:if.end<latch>|256
+md5_main|Loop in file md5.c near line 617|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|10

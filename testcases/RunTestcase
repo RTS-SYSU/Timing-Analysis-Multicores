@@ -1,0 +1,393 @@
+#!/bin/bash
+set -e
+set -o pipefail
+set -u
+
+# 使用方法 ./RunTestcase batchtest intr
+# ./RunTestcase batchtest/bs liangy
+# 可以指定文件夹和分析方法(liangy zhangw intr our)
+
+# 定义常量
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BENCHMARK_DIR="$SCRIPT_DIR"
+
+# 检查参数
+if [ $# -lt 1 ]; then
+    echo "Usage: $0 [testcase|test] [options]" >&2
+    exit 1
+fi
+
+# # 加载依赖脚本
+source "$SCRIPT_DIR/util_scripts/OptionHandler.sh"
+source "$SCRIPT_DIR/util_scripts/llvmta_utils.sh"
+
+# # 初始化选项
+# init_options "${@:2}"  # 跳过第一个参数（testcase/test）
+# llvmta_defaults
+
+# 处理测试目标
+process_testcase_liangy() {
+	# 加载依赖脚本
+	# source "$SCRIPT_DIR/util_scripts/OptionHandler.sh"
+	# source "$SCRIPT_DIR/util_scripts/llvmta_utils.sh"
+
+	# 初始化选项
+	init_options "${@:3}"  # 跳过第一个参数（testcase/test）
+	llvmta_defaults
+
+    local TESTCASE_DIR="$1"
+    echo "正在处理测试用例: $TESTCASE_DIR"
+
+    # 检查必要文件
+    loopanno="${TESTCASE_DIR}/LoopAnnotations.csv"
+	# 修改核心信息文件匹配规则
+    coreinfo=$(find "$TESTCASE_DIR" -maxdepth 1 -name "*.json")
+
+    # 如果没有匹配到json文件，跳过
+    if [ -z "$coreinfo" ]; then
+        echo "跳过：未找到 JSON 文件，$TESTCASE_DIR"
+        return
+    fi
+
+    # 添加核心信息
+    if [ -f "$coreinfo" ]; then
+        add_option "--core-info=$coreinfo"
+    fi
+
+    # 添加循环注解
+    if [ -f "$loopanno" ]; then
+        add_option "--ta-loop-bounds-file=$loopanno"
+    fi
+
+    # 梁云多核指标
+    add_option "--core-numbers=1"
+    add_option "--ta-multicore-type=liangy"
+    add_option "--ta-muarch-type=inorder"
+    add_option "--ta-strict=false"
+    add_option "--ta-memory-type=separatecaches"
+
+    add_option "--ta-mem-latency=113"
+    add_option "--ta-dcache-linesize=16"
+    add_option "--ta-dcache-assoc=2"
+    add_option "--ta-dcache-nsets=16"
+    add_option "--ta-icache-linesize=16"
+    add_option "--ta-icache-assoc=2"
+    add_option "--ta-icache-nsets=16"
+    add_option "--ta-dcache-persistence=elementwise"
+    add_option "--ta-icache-persistence=elementwise"
+
+    add_option "--ta-num-callsite-tokens=-1"
+    add_option "--ta-num-callee-tokens=-1"
+    add_option "--ta-num-loop-tokens=0"
+
+    add_option "--ta-dirtiness-analysis=false"
+    add_option "--ta-array-analysis=false"
+    add_option "--ta-shared-bus=roundRobin"
+    add_option "--ta-dcache-write-back=true"
+    add_option "--ta-dcache-write-allocate=true"
+
+    # 生成并执行命令
+    cmdline=("${SCRIPT_DIR}/runllvmta.sh" "$TESTCASE_DIR" "${USEROPTS[@]}")
+    echo "执行命令：${cmdline[@]}"
+
+    # 执行命令并检查返回值
+    if ! "${cmdline[@]}"; then
+        echo "错误：命令执行失败: ${cmdline[@]}" >&2
+        exit 1
+    fi
+
+    input="${TESTCASE_DIR}/build/main/TotalBound.xml"
+
+    # 检查输入文件是否存在
+    if [[ ! -f "$input" ]]; then
+        echo "错误：输入文件不存在: $input" >&2
+        exit 1
+    fi
+
+    # 提取数据并检查每一步
+    if ! awk '/<bounds>/{c++} c==1' "$input" | \
+        sed -n '/<bounds>/,/<\/bounds>/p' | \
+        grep -oP 'ub="\K[^"]+' >> "${TEST_DIR}/out.xml"
+    then
+        echo "错误：无法从XML文件中提取ub值" >&2
+        echo "可能原因：" >&2
+        echo "1. XML文件格式不符合预期" >&2
+        echo "2. <bounds>标签不存在" >&2
+        echo "3. ub属性不存在" >&2
+        exit 1
+    fi
+
+    # 检查输出文件是否成功生成
+    if [[ ! -s "${TEST_DIR}/out.xml" ]]; then
+        echo "错误：输出文件为空或未生成: ${TEST_DIR}/out.xml" >&2
+        exit 1
+    fi
+
+    echo "操作成功完成，结果已保存到 ${TEST_DIR}/out.xml"
+}
+echo "参数 \$1 是：[$1]"
+
+process_testcase_intr() { # 测量batchtest的各CEOP上的instructions数
+    echo "调用了处理函数: intr"
+    # 加载依赖脚本
+	# source "$SCRIPT_DIR/util_scripts/OptionHandler.sh"
+	# source "$SCRIPT_DIR/util_scripts/llvmta_utils.sh"
+
+	# 初始化选项
+	init_options "${@:3}"  # 跳过第一个参数（testcase/test）
+	llvmta_defaults
+
+    local TESTCASE_DIR="$1"
+    echo "正在处理测试用例: $TESTCASE_DIR"
+
+    # 检查必要文件
+    loopanno="${TESTCASE_DIR}/LoopAnnotations.csv"
+	# 修改核心信息文件匹配规则
+    coreinfo=$(find "$TESTCASE_DIR" -maxdepth 1 -name "*.json")
+
+    # 如果没有匹配到json文件，跳过
+    if [ -z "$coreinfo" ]; then
+        echo "跳过：未找到 JSON 文件，$TESTCASE_DIR"
+        return
+    fi
+
+    # 添加核心信息
+    if [ -f "$coreinfo" ]; then
+        add_option "--core-info=$coreinfo"
+    fi
+
+    # 添加循环注解
+    if [ -f "$loopanno" ]; then
+        add_option "--ta-loop-bounds-file=$loopanno"
+    fi
+
+    # 设置固定参数
+    add_option "--core-numbers=2"
+    add_option "--ta-multicore-type=intr"
+    add_option "--ta-strict=false"
+    add_option "--ta-l2cache-persistence=none"
+    add_option "--ta-dcache-persistence=elementwise"
+    add_option "--ta-icache-persistence=elementwise"
+    add_option "--ta-dcache-linesize=16"
+    add_option "--ta-dcache-assoc=2"
+    add_option "--ta-dcache-nsets=16"
+    add_option "--ta-icache-linesize=16"
+    add_option "--ta-icache-assoc=2"
+    add_option "--ta-icache-nsets=16"
+    add_option "--ta-l2cache-linesize=16"
+    add_option "--ta-l2cache-assoc=4"
+    add_option "--ta-l2cache-nsets=32"
+    add_option "--ta-mem-latency=100"
+    add_option "--ta-L2-latency=5"
+    add_option "--ta-num-callsite-tokens=-1"
+    add_option "--ta-num-callee-tokens=-1"
+    add_option "--ta-num-loop-tokens=-1"
+    add_option "--ta-loop-peel=0"
+
+
+
+
+    # 生成并执行命令
+    cmdline=("${SCRIPT_DIR}/runllvmta.sh" "$TESTCASE_DIR" "${USEROPTS[@]}")
+    echo "执行命令：${cmdline[@]}"
+
+    # 执行命令并检查返回值
+    if ! "${cmdline[@]}"; then
+        echo "错误：命令执行失败: ${cmdline[@]}" >&2
+        exit 1
+    fi
+
+	# input="${TESTCASE_DIR}/build/main/TotalBound.xml"
+	# awk '/<bounds>/{c++} c==2' "$input" | sed -n '/<bounds>/,/<\/bounds>/p' >> "${TEST_DIR}/out.xml"
+
+    input2="${TESTCASE_DIR}/build/main/Zhao_Output.txt"
+    output="${TEST_DIR}/Zhao_Output.txt"
+    # 将 input2 的内容追加到 output 文件末尾
+    echo "${TESTCASE_DIR}" >> "$output"
+    cat "$input2" >> "$output"
+    echo "--------------------------------------------------------------" >> "$output"
+
+}
+
+process_testcase_zhangw() { # 运行原版张伟方法，但是单核单task，输出在out.xml
+    echo "调用了处理函数: zhangw"
+    # 加载依赖脚本
+	# source "$SCRIPT_DIR/util_scripts/OptionHandler.sh"
+	# source "$SCRIPT_DIR/util_scripts/llvmta_utils.sh"
+
+	# 初始化选项
+	init_options "${@:3}"  # 跳过第一个参数（testcase/test）
+	llvmta_defaults
+
+    local TESTCASE_DIR="$1"
+    local TESTCASE_NAME
+    TESTCASE_NAME=$(basename "$TESTCASE_DIR")
+
+    # countnegative无法完成ILP，h264_dec用时过久
+    # if [[ "$TESTCASE_NAME" =~ ^(countnegative|h264_dec)$ ]]; then
+    #     echo "FIXME跳过测试用例: $TESTCASE_NAME"
+    #     return
+    # fi
+    # echo "正在处理测试用例: $TESTCASE_DIR"
+
+    # 检查必要文件
+    loopanno="${TESTCASE_DIR}/LoopAnnotations.csv"
+	# 修改核心信息文件匹配规则
+    coreinfo=$(find "$TESTCASE_DIR" -maxdepth 1 -name "*.json")
+
+    # 如果没有匹配到json文件，跳过
+    if [ -z "$coreinfo" ]; then
+        echo "跳过：未找到 JSON 文件，$TESTCASE_DIR"
+        return
+    fi
+
+    # 添加核心信息
+    if [ -f "$coreinfo" ]; then
+        add_option "--core-info=$coreinfo"
+    fi
+
+    # 添加循环注解
+    if [ -f "$loopanno" ]; then
+        add_option "--ta-loop-bounds-file=$loopanno"
+    fi
+
+    # 梁云多核指标
+    add_option "--core-numbers=1"
+    add_option "--ta-multicore-type=zhangw"
+    add_option "--ta-muarch-type=inorder"
+    add_option "--ta-strict=false"
+    add_option "--ta-memory-type=separatecaches"
+
+    add_option "--ta-mem-latency=113"
+    add_option "--ta-dcache-linesize=16"
+    add_option "--ta-dcache-assoc=2"
+    add_option "--ta-dcache-nsets=16"
+    add_option "--ta-icache-linesize=16"
+    add_option "--ta-icache-assoc=2"
+    add_option "--ta-icache-nsets=16"
+    add_option "--ta-dcache-persistence=elementwise"
+    add_option "--ta-icache-persistence=elementwise"
+
+    add_option "--ta-num-callsite-tokens=-1"
+    add_option "--ta-num-callee-tokens=-1"
+    add_option "--ta-num-loop-tokens=0"
+
+    add_option "--ta-dirtiness-analysis=false"
+    add_option "--ta-array-analysis=false"
+    add_option "--ta-shared-bus=roundRobin"
+    add_option "--ta-dcache-write-back=true"
+    add_option "--ta-dcache-write-allocate=true"
+
+    # 生成并执行命令
+    cmdline=("${SCRIPT_DIR}/runllvmta.sh" "$TESTCASE_DIR" "${USEROPTS[@]}")
+    echo "执行命令：${cmdline[@]}"
+
+    # 使用 timeout 限制执行时间，并在错误时跳过
+    if ! timeout 60s "${cmdline[@]}"; then
+        status=$?
+        if [[ $status -eq 124 ]]; then
+            echo "TLE" >> "${TEST_DIR}/out.xml"
+            echo "超时终止: ${cmdline[*]}"
+        else
+            echo "RE" >> "${TEST_DIR}/out.xml"
+            echo "运行时错误: ${cmdline[*]}"
+        fi
+        return
+    fi
+
+    input="${TESTCASE_DIR}/build/main/TotalBound.xml"
+
+    # 检查输入文件是否存在
+    if [[ ! -f "$input" ]]; then
+        echo "错误：输入文件不存在: $input" >&2
+        exit 1
+    fi
+
+    # 提取数据并检查每一步
+    if ! awk '/<bounds>/{c++} c==1' "$input" | \
+        sed -n '/<bounds>/,/<\/bounds>/p' | \
+        grep -oP 'ub="\K[^"]+' >> "${TEST_DIR}/out.xml"
+    then
+        echo "错误：无法从XML文件中提取ub值" >&2
+        echo "可能原因：" >&2
+        echo "1. XML文件格式不符合预期" >&2
+        echo "2. <bounds>标签不存在" >&2
+        echo "3. ub属性不存在" >&2
+        exit 1
+    fi
+
+    # 检查输出文件是否成功生成
+    if [[ ! -s "${TEST_DIR}/out.xml" ]]; then
+        echo "错误：输出文件为空或未生成: ${TEST_DIR}/out.xml" >&2
+        exit 1
+    fi
+
+    echo "操作成功完成，结果已保存到 ${TEST_DIR}/out.xml"
+}
+
+process_testcase_our() {
+    echo "调用了处理函数: our"
+    process_testcase "$@" # todo实现正确的ourmethod处理
+}
+
+# 记得先编译
+pushd "/workspaces/llvmta/build" || echo "Unable to compile"
+    echo "compiling..."
+    ninja -j4 || exit
+popd || exit
+
+# 主逻辑
+case "$1" in
+    batchtest)
+        MODE="${2:-default}"  # 默认为 default
+
+        TEST_DIR="${BENCHMARK_DIR}/$1"
+        if [ ! -d "$TEST_DIR" ]; then
+            echo "错误：找不到test目录 $TEST_DIR" >&2
+            exit 2
+        fi
+        > "$TEST_DIR/out.xml"
+        > "$TEST_DIR/out.txt"
+        > "$TEST_DIR/Zhao_Output.txt"
+
+        for dir in "$TEST_DIR"/*; do
+            if [ -d "$dir" ]; then
+                case "$(basename "$dir")" in
+                    h264_dec|g723_enc|ndes)
+                        continue ;;
+                    *)
+                        USEROPTS=()
+                        case "$MODE" in
+                            liangy) process_testcase_liangy "$dir" ;;
+                            zhangw) process_testcase_zhangw "$dir" ;;
+                            our)    process_testcase_our "$dir" ;;
+                            intr)   process_testcase_intr "$dir" ;;  # 默认
+                        esac
+                        ;;
+                esac
+            fi
+        done
+        ;;
+    *)
+        TESTCASE="$1"
+        MODE="${2:-default}"
+
+        TESTCASE_DIR=$(find "$BENCHMARK_DIR" -type d -wholename "*/$TESTCASE" ! -wholename "*/build/*")
+        TEST_DIR=$TESTCASE_DIR
+
+        if [ ! -d "$TESTCASE_DIR" ]; then
+            echo "无法找到测试用例: $TESTCASE" >&2
+            exit 2
+        fi
+
+        case "$MODE" in
+            liangy) process_testcase_liangy "$TESTCASE_DIR" ;;
+            zhangw) process_testcase_zhangw "$TESTCASE_DIR" ;;
+            our)    process_testcase_our "$TESTCASE_DIR" ;;
+            intr)   process_testcase_intr "$TESTCASE_DIR" ;;
+        esac
+        ;;
+
+esac
+
+exit 0

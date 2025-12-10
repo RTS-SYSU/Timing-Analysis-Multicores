@@ -1,0 +1,9 @@
+# Type: Normal
+rijndael_dec_set_key|Loop in file aes.c near line 92|BB#16:do.body<header>_BB#17:do.cond<latch><exiting>|0
+rijndael_dec_set_key|Loop in file aes.c near line 145|BB#31:for.cond<header><exiting>_BB#32:for.body_BB#33:do.body273_BB#34:do.end359_BB#35:for.inc<latch>|13
+rijndael_dec_set_key|Loop in file aes.c near line 105|BB#20:do.body94<header>_BB#21:do.cond145<latch><exiting>|0
+rijndael_dec_set_key|Loop in file aes.c near line 122|BB#24:do.body162<header>_BB#25:do.cond243<latch><exiting>|7
+rijndael_dec_fread|Loop in file rijndael_dec_libc.c near line 18|BB#4:while.cond<header><exiting>_BB#5:while.body<latch>|16
+rijndael_dec_decfile|Loop in file rijndael_dec.c near line 165|BB#11:for.cond25<header><exiting>_BB#12:for.body28_BB#13:for.inc35<latch>|16
+rijndael_dec_decfile|Loop in file rijndael_dec.c near line 152|BB#8:while.body<header><exiting>_BB#10:if.end19_BB#11:for.cond25_BB#12:for.body28_BB#13:for.inc35_BB#14:for.end37<latch>|2046
+rijndael_dec_decfile|Loop in file rijndael_dec.c near line 143|BB#4:for.cond<header><exiting>_BB#5:for.body_BB#6:for.inc<latch>|16

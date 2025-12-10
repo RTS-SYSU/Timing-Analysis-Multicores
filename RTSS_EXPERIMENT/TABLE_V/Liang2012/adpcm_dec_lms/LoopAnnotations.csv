@@ -1,0 +1,12 @@
+# Type: Normal
+adpcm_dec_decode|Loop in file adpcm_dec.c near line 413|BB#5:for.cond47<header><exiting>_BB#6:for.body49_BB#7:for.inc54<latch>|10
+adpcm_dec_decode|Loop in file adpcm_dec.c near line 395|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|10
+adpcm_dec_filtez|Loop in file adpcm_dec.c near line 437|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|5
+adpcm_dec_upzero|Loop in file adpcm_dec.c near line 503|BB#2:for.cond<header><exiting>_BB#3:for.body_BB#4:for.inc<latch>|6
+adpcm_dec_upzero|Loop in file adpcm_dec.c near line 509|BB#7:for.cond3<header><exiting>_BB#8:for.body5_BB#10:if.else10_BB#9:if.then9_BB#11:if.end_BB#12:for.inc15<latch>|6
+adpcm_dec_main|Loop in file adpcm_dec.c near line 695|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|2
+lms_calc|Loop in file lms.c near line 127|BB#9:for.cond16<header><exiting>_BB#10:for.body18_BB#11:for.inc22<latch>|21
+lms_calc|Loop in file lms.c near line 121|BB#5:for.cond6<header><exiting>_BB#6:for.body8_BB#7:for.inc12<latch>|21
+lms_calc|Loop in file lms.c near line 113|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|20
+lms_main|Loop in file lms.c near line 144|BB#5:for.cond2<header><exiting>_BB#6:for.body4_BB#7:for.inc9<latch>|201
+lms_main|Loop in file lms.c near line 139|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|21

@@ -1,0 +1,4 @@
+# Type: Normal
+powerwindow_Booleaninputarray_initialize|Loop in file powerwindow.c near line 418|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|977
+powerwindow_Uint8inputarray_initialize|Loop in file powerwindow.c near line 428|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|977
+powerwindow_main|Loop in file powerwindow.c near line 688|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|977

@@ -1,0 +1,2 @@
+# Type: Normal
+binarysearch_binary_search|Loop in file binarysearch.c near line 120|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#6:if.else8_BB#5:if.then6_BB#7:if.end_BB#3:if.then_BB#8:if.end10<latch>|1

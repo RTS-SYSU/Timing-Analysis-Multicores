@@ -1,0 +1,10 @@
+,adpcm_dec_main,binarysearch_main,expint_main,fir2dim_main,fir_main,huff_dec_main,jfdctint_main,ndes_main,statemate_main
+adpcm_dec_main,0,8400,0,17200,0,17200,0,17200,0
+binarysearch_main,600,0,300,300,300,300,100,300,300
+expint_main,0,33300,0,480900,0,713800,0,645000,0
+fir2dim_main,4700,200,6000,0,7400,0,1500,0,7400
+fir_main,0,1000,0,35400,0,420000,0,417400,0
+huff_dec_main,3000,0,100,0,0,0,3000,0,132600
+jfdctint_main,0,6500,0,14000,0,21000,0,18900,0
+ndes_main,130900,42800,124900,0,215400,0,83500,0,256300
+statemate_main,0,7300,0,109500,0,320200,0,370000,0

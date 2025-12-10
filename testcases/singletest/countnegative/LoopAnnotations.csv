@@ -1,0 +1,5 @@
+# Type: Normal
+countnegative_initialize|Loop in file countnegativec near line 79|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|20
+countnegative_initialize|Loop in file countnegativec near line 77|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc5<latch>|20
+countnegative_sum|Loop in file countnegativec near line 111|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#6:if.else_BB#5:if.then_BB#7:if.end_BB#8:for.inc<latch>|20
+countnegative_sum|Loop in file countnegativec near line 109|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#6:if.else_BB#5:if.then_BB#7:if.end_BB#8:for.inc_BB#9:for.end_BB#10:for.inc13<latch>|20

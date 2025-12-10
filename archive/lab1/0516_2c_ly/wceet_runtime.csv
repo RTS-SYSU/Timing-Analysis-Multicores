@@ -1,0 +1,13 @@
+,adpcm_dec_main,binarysearch_main,cover_main,fir2dim_main,fmref_main,huff_dec_main,iir_main,insertsort_main,jfdctint_main,ndes_main,st_main,statemate_main
+adpcm_dec_main,0,0,0,0,0,0,0,0,0,0,0,0
+binarysearch_main,0,0,0,0,0,0,0,0,0,0,0,0
+cover_main,0,0,0,0,0,0,0,0,0,0,0,0
+fir2dim_main,0,0,0,0,0,0,0,0,0,0,0,0
+fmref_main,0,0,0,0,0,0,0,0,0,0,0,0
+huff_dec_main,0,0,0,0,0,0,0,0,0,0,0,0
+iir_main,0,0,0,0,0,0,0,0,0,0,0,0
+insertsort_main,0,0,0,0,0,0,0,0,0,0,0,0
+jfdctint_main,0,0,0,0,0,0,0,0,0,0,0,0
+ndes_main,0,0,0,0,0,0,0,0,0,0,0,0
+st_main,0,0,0,0,0,0,0,0,0,0,0,0
+statemate_main,0,0,0,0,0,0,0,0,0,0,0,0

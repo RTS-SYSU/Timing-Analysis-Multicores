@@ -1,0 +1,23 @@
+# Type: Normal
+anagram_BuildMask|Loop in file anagram.c near line 428|BB#10:for.cond14<header><exiting>_BB#11:for.body19_BB#12:for.inc<latch>|-1
+anagram_BuildMask|Loop in file anagram.c near line 422|BB#6:for.cond<header><exiting>_BB#7:for.body_BB#9:if.else_BB#10:for.cond14_BB#11:for.body19_BB#12:for.inc_BB#13:for.end_BB#14:if.then23_BB#15:if.end24_BB#16:if.then27_BB#17:if.end29_BB#8:if.then11_BB#18:if.end40_BB#19:for.inc41<latch>|26
+anagram_BuildMask|Loop in file anagram.c near line 409|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:if.then_BB#4:if.end<latch>|-1
+anagram_BuildWord|Loop in file anagram.c near line 507|BB#13:for.cond21<header><exiting>_BB#14:for.body24_BB#15:for.inc31<latch>|26
+anagram_BuildWord|Loop in file anagram.c near line 495|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|26
+anagram_BuildWord|Loop in file anagram.c near line 484|BB#2:while.cond<header><exiting>_BB#3:while.body<exiting>_BB#4:if.then<latch>|-1
+anagram_BuildWord|Loop in file anagram.c near line 484|BB#1:while.cond.outer<header>_BB#2:while.cond<exiting>_BB#3:while.body_BB#5:if.end<exiting>_BB#7:if.end9<latch>_BB#4:if.then|-1
+anagram_AddWords|Loop in file anagram.c near line 522|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:land.lhs.true_BB#4:lor.lhs.false_BB#5:if.then_BB#6:if.end<latch>|-1
+anagram_DumpWords|Loop in file anagram.c near line 539|BB#3:for.cond1<header><exiting>_BB#4:for.body5_BB#5:for.inc<latch>|-1
+anagram_DumpWords|Loop in file anagram.c near line 537|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body5_BB#5:for.inc_BB#6:for.end_BB#7:for.inc13<latch>|-1
+anagram_FindAnagram|Loop in file anagram.c near line 570|BB#6:while.cond<header><exiting>_BB#7:while.body8<exiting>_BB#10:if.end15<exiting>_BB#12:if.end25<exiting>_BB#13:if.then30<latch>|-1
+anagram_FindAnagram|Loop in file anagram.c near line 570|BB#5:while.cond.outer<header>_BB#6:while.cond<exiting>_BB#7:while.body8_BB#8:if.then14_BB#10:if.end15_BB#11:if.then23_BB#12:if.end25_BB#14:if.end32_BB#15:if.then37_BB#16:if.else_BB#17:if.end40_BB#9:while.cond.outer.backedge<latch>_BB#13:if.then30|-1
+anagram_FindAnagram|Loop in file anagram.c near line 561|BB#1:while.body<header><exiting>_BB#3:if.end<latch>|-1
+anagram_SortCandidates|Loop in file anagram.c near line 624|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|26
+anagram_main|Loop in file anagram.c near line 635|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:lor.lhs.false_BB#5:if.end_BB#4:if.then_BB#6:for.inc<latch>|3
+anagram_swapi|Loop in file anagram_stdlib.c near line 40|BB#1:do.body<header>_BB#2:do.cond<latch><exiting>|-1
+anagram_qsorts|Loop in file anagram_stdlib.c near line 97|BB#12:do.body10<header>_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17<latch><exiting>|-1
+anagram_qsorts|Loop in file anagram_stdlib.c near line 93|BB#7:do.body<header>_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end<latch><exiting>|-1
+anagram_qsorts|Loop in file anagram_stdlib.c near line 90|BB#6:while.body5<header>_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18<exiting>_BB#18:if.end21<latch>|-1
+anagram_qsorts|Loop in file anagram_stdlib.c near line 76|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#4:if.else_BB#3:if.then_BB#5:if.end_BB#6:while.body5_BB#7:do.body_BB#8:do.cond_BB#9:land.rhs_BB#10:land.end_BB#11:do.end_BB#12:do.body10_BB#13:do.cond12_BB#14:land.rhs14_BB#15:land.end17_BB#16:do.end18_BB#18:if.end21_BB#17:if.then20_BB#19:while.end_BB#20:if.then24_BB#21:if.else27_BB#22:if.end31<latch>|-1
+anagram_bzero|Loop in file anagram_stdlib.c near line 146|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|416
+__udivsi3|Loop in file udivsi3.c near line 48|BB#9:for.cond<header><exiting>_BB#10:for.body_BB#11:for.inc<latch>|-1

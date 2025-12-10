@@ -1,0 +1,18 @@
+# Type: Normal
+minver_mmul|Loop in file minver.c near line 90|BB#10:for.cond10<header><exiting>_BB#11:for.body12_BB#12:for.inc<latch>|3
+minver_mmul|Loop in file minver.c near line 87|BB#8:for.cond7<header><exiting>_BB#9:for.body9_BB#10:for.cond10_BB#11:for.body12_BB#12:for.inc_BB#13:for.end_BB#14:for.inc18<latch>|3
+minver_mmul|Loop in file minver.c near line 85|BB#6:for.cond<header><exiting>_BB#7:for.body_BB#8:for.cond7_BB#9:for.body9_BB#10:for.cond10_BB#11:for.body12_BB#12:for.inc_BB#13:for.end_BB#14:for.inc18_BB#15:for.end20_BB#16:for.inc21<latch>|3
+minver_minver|Loop in file minver.c near line 174|BB#52:for.cond103<header><exiting>_BB#53:for.body105_BB#54:for.inc114<latch>|3
+minver_minver|Loop in file minver.c near line 169|BB#49:while.body<header><exiting>_BB#51:if.end98_BB#52:for.cond103_BB#53:for.body105_BB#54:for.inc114_BB#55:for.end116<latch>|3
+minver_minver|Loop in file minver.c near line 165|BB#47:for.cond92<header><exiting>_BB#48:for.body94_BB#49:while.body_BB#51:if.end98_BB#52:for.cond103_BB#53:for.body105_BB#54:for.inc114_BB#55:for.end116_BB#50:if.then97_BB#56:while.end<latch>|3
+minver_minver|Loop in file minver.c near line 154|BB#33:for.cond63<header><exiting>_BB#34:for.body65_BB#35:if.then67_BB#36:if.end73_BB#37:for.inc74<latch>|3
+minver_minver|Loop in file minver.c near line 149|BB#29:for.cond54<header><exiting>_BB#30:for.body56_BB#31:if.then58_BB#32:if.then62_BB#33:for.cond63_BB#34:for.body65_BB#35:if.then67_BB#36:if.end73_BB#37:for.inc74_BB#40:for.end76_BB#41:if.end81_BB#42:if.end82_BB#43:for.inc83<latch>|3
+minver_minver|Loop in file minver.c near line 146|BB#25:for.cond46<header><exiting>_BB#26:for.body48_BB#27:for.inc51<latch>|3
+minver_minver|Loop in file minver.c near line 139|BB#20:for.cond31<header><exiting>_BB#21:for.body33_BB#22:for.inc42<latch>|3
+minver_minver|Loop in file minver.c near line 119|BB#11:for.cond8<header><exiting>_BB#12:for.body10_BB#13:if.then14_BB#14:if.end15_BB#15:for.inc16<latch>|3
+minver_minver|Loop in file minver.c near line 116|BB#9:for.cond5<header><exiting>_BB#10:for.body7_BB#11:for.cond8_BB#12:for.body10_BB#13:if.then14_BB#14:if.end15_BB#15:for.inc16_BB#16:for.end18<exiting>_BB#18:if.end24_BB#19:if.then26_BB#20:for.cond31_BB#21:for.body33_BB#22:for.inc42_BB#23:for.end44_BB#24:if.end45_BB#25:for.cond46_BB#26:for.body48_BB#27:for.inc51_BB#28:for.end53_BB#29:for.cond54_BB#30:for.body56_BB#31:if.then58_BB#32:if.then62_BB#33:for.cond63_BB#34:for.body65_BB#35:if.then67_BB#36:if.end73_BB#37:for.inc74_BB#40:for.end76_BB#41:if.end81_BB#42:if.end82_BB#43:for.inc83_BB#44:for.end85_BB#45:for.inc89<latch>|3
+minver_minver|Loop in file minver.c near line 113|BB#5:for.cond<header><exiting>_BB#6:for.body_BB#7:for.inc<latch>|3
+minver_main|Loop in file minver.c near line 242|BB#11:for.cond13<header><exiting>_BB#12:for.body15_BB#13:for.inc20<latch>|3
+minver_main|Loop in file minver.c near line 240|BB#9:for.cond10<header><exiting>_BB#10:for.body12_BB#11:for.cond13_BB#12:for.body15_BB#13:for.inc20_BB#14:for.end22_BB#15:for.inc23<latch>|3
+minver_main|Loop in file minver.c near line 234|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|3
+minver_main|Loop in file minver.c near line 232|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc7<latch>|3

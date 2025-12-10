@@ -1,0 +1,15 @@
+# Type: Normal
+huff_dec_read_code_n_bits|Loop in file huff_dec.c near line 214|BB#3:while.cond1<header>_BB#4:land.rhs_BB#5:land.end<exiting>_BB#6:while.body4<latch>|2
+huff_dec_read_code_n_bits|Loop in file huff_dec.c near line 212|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:while.cond1_BB#4:land.rhs_BB#5:land.end_BB#7:while.end_BB#8:if.then_BB#9:if.else_BB#10:if.end<latch>_BB#6:while.body4|1
+huff_dec_read_header|Loop in file huff_dec.c near line 260|BB#15:while.cond<header><exiting>_BB#16:while.body<latch>|32
+huff_dec_read_header|Loop in file huff_dec.c near line 289|BB#27:while.cond53<header><exiting>_BB#28:while.body56<latch>|1
+huff_dec_read_header|Loop in file huff_dec.c near line 270|BB#19:for.cond24<header><exiting>_BB#20:for.body26_BB#21:if.then30_BB#22:if.then33_BB#23:if.else36_BB#24:if.end39_BB#25:if.then43_BB#26:if.end52_BB#27:while.cond53_BB#29:while.end64_BB#28:while.body56_BB#30:if.end65_BB#31:for.inc66<latch>|257
+huff_dec_read_header|Loop in file huff_dec.c near line 255|BB#10:for.cond9<header><exiting>_BB#11:for.body11_BB#12:for.inc14<latch>|256
+huff_dec_read_header|Loop in file huff_dec.c near line 246|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|32
+huff_dec_read_header|Loop in file huff_dec.c near line 243|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc6<latch>|257
+huff_dec_tree_encoding|Loop in file huff_dec.c near line 320|BB#3:for.cond2<header><exiting>_BB#4:for.body3_BB#5:if.then_BB#7:if.else_BB#6:if.then12_BB#8:if.end_BB#9:if.else20_BB#11:if.else31_BB#10:if.then24_BB#12:if.end33_BB#13:if.end34_BB#15:if.else39_BB#14:if.then37_BB#16:if.end41_BB#17:for.inc<latch>|9
+huff_dec_tree_encoding|Loop in file huff_dec.c near line 318|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond2_BB#4:for.body3_BB#5:if.then_BB#7:if.else_BB#6:if.then12_BB#8:if.end_BB#9:if.else20_BB#11:if.else31_BB#10:if.then24_BB#12:if.end33_BB#13:if.end34_BB#15:if.else39_BB#14:if.then37_BB#16:if.end41_BB#17:for.inc_BB#18:for.end_BB#19:for.inc42<latch>|257
+huff_dec_main|Loop in file huff_dec.c near line 364|BB#3:while.cond<header><exiting>_BB#4:while.body_BB#5:if.then6_BB#6:if.else_BB#7:if.end<latch>|9
+huff_dec_main|Loop in file huff_dec.c near line 364|BB#2:do.body<header>_BB#3:while.cond_BB#8:while.end_BB#9:if.then9_BB#10:if.end11_BB#11:do.cond<latch><exiting>_BB#4:while.body_BB#5:if.then6_BB#6:if.else_BB#7:if.end|601
+insertsort_main|Loop in file insertsort.c near line 97|BB#3:while.cond1<header><exiting>_BB#4:while.body4<latch>|9
+insertsort_main|Loop in file insertsort.c near line 89|BB#1:while.cond<header><exiting>_BB#2:while.body_BB#3:while.cond1_BB#5:while.end_BB#6:if.then_BB#7:if.end_BB#8:if.then14_BB#9:if.end15<latch>_BB#4:while.body4|9

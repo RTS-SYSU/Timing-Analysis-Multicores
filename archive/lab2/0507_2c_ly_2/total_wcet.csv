@@ -1,0 +1,9 @@
+,adpcm_dec_main,binarysearch_main,expint_main,fir2dim_main,fir_main,jfdctint_main,ndes_main,statemate_main
+adpcm_dec_main,0,0,0,0,0,0,0,0
+binarysearch_main,0,0,0,0,0,0,0,0
+expint_main,0,0,0,0,0,0,0,0
+fir2dim_main,0,0,0,0,0,0,0,0
+fir_main,0,0,0,0,0,0,0,0
+jfdctint_main,0,0,0,0,0,0,0,0
+ndes_main,0,0,0,0,0,0,0,0
+statemate_main,0,0,0,0,0,0,0,0

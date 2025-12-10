@@ -1,0 +1,41 @@
+# 访存统计汇总
+
+| 函数名 | 访问类型 | Hit | L2Hit | L2PS | L2Miss | Total |
+|--------|----------|-----|-------|------|--------|------|
+| adpcm_dec_main | instr&data | 3839 | 2 | 171 | 2755 | 0 |
+| audiobeam_main | instr&data | 463239640 | 0 | 18000 | 2778520824 | 0 |
+| binarysearch_main | instr&data | 220 | 0 | 6 | 216 | 0 |
+| bsort_main | instr&data | 611244 | 0 | 0 | 1370634 | 0 |
+| cjpeg_transupp_main | instr&data | 63045437 | 27 | 4 | 152194789 | 0 |
+| cjpeg_wrbmp_main | instr&data | 3417036 | 0 | 0 | 2272716 | 0 |
+| complex_updates_main | instr&data | 696 | 0 | 0 | 1994 | 0 |
+| countnegative_main | instr&data | 25463 | 0 | 0 | 17107 | 0 |
+| cover_main | instr&data | 60083 | 0 | 0 | 33942 | 0 |
+| dijkstra_main | instr&data | 1035488298 | 0 | 4000 | 2313551581 | 0 |
+| epic_main | instr&data | 790588002 | 235 | 1147 | 564538834 | 0 |
+| fft_main | instr&data | 76735690 | 0 | 0 | 1143854772 | 0 |
+| filterbank_main | instr&data | 948390 | 0 | 0 | 440728 | 0 |
+| fir2dim_main | instr&data | 7387 | 1 | 74 | 5921 | 0 |
+| fmref_main | instr&data | 4393911 | 0 | 62889 | 4432741 | 0 |
+| g723_enc_main | instr&data | 3197229 | 0 | 512 | 2179018 | 0 |
+| gsm_dec_main | instr&data | 2663941 | 0 | 44 | 1431794 | 0 |
+| gsm_enc_main | instr&data | 9484189 | 0 | 160 | 5825595 | 0 |
+| h264_dec_main | instr&data | 75337630 | 29585 | 410825 | 40520395 | 0 |
+| huff_dec_main | instr&data | 3057437 | 1026 | 6190 | 4292849623 | 0 |
+| iir_main | instr&data | 205 | 0 | 3 | 257 | 0 |
+| insertsort_main | instr&data | 7452 | 0 | 96 | 7828 | 0 |
+| jfdctint_main | instr&data | 1302 | 0 | 119 | 4527 | 0 |
+| lift_main | instr&data | 1636006 | 987 | 22999 | 1013703 | 0 |
+| lms_main | instr&data | 202911 | 0 | 0 | 162029 | 0 |
+| ludcmp_main | instr&data | 13639 | 0 | 0 | 1531839 | 0 |
+| matrix1_main | instr&data | 27984 | 0 | 0 | 90852 | 0 |
+| md5_main | instr&data | 110210774 | 0 | 5120 | 59432868 | 0 |
+| minver_main | instr&data | 41125 | 0 | 1345 | 38855 | 0 |
+| ndes_main | instr&data | 196034 | 1024 | 7368 | 290532 | 0 |
+| petrinet_main | instr&data | 2005 | 0 | 2 | 1469 | 0 |
+| pm_main | instr&data | 385254800 | 216 | 96384 | 566485818 | 0 |
+| powerwindow_main | instr&data | 4845232 | 49 | 248018 | 6171940 | 0 |
+| prime_main | instr&data | 6499283 | 783 | 159030 | 2232700 | 0 |
+| sha_main | instr&data | 27283495 | 6 | 3840 | 18867917 | 0 |
+| st_main | instr&data | 2054888 | 48 | 4608 | 94064 | 0 |
+| statemate_main | instr&data | 182412 | 301 | 2998 | 104138 | 0 |

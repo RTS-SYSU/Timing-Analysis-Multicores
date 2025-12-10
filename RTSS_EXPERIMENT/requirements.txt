@@ -1,0 +1,2 @@
+psutil=7.0.0
+pandas=2.2.3
