@@ -1,4 +1,4 @@
-# LLVM-TA+
+# SYSU-TA
 
 <p align="center">
     <img src="./assets/LLVM-TA+.png" alt="LLVM-TA+" width=30%></>
