@@ -2,7 +2,7 @@
 
 This is a fork of LLVMTA built by University of Saarland, you can find their version at [here](https://gitlab.cs.uni-saarland.de/reineke/llvmta)
 
-# LLVMTA
+# SYSU-TA
 
 This Repository contains LLVMTA a static timing analysis tool based on the LLVM compiler ecosystem.
 
