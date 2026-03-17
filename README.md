@@ -1,7 +1,7 @@
 # SYSU-TA
 
 <p align="center">
-    <img src="./assets/LLVM-TA+.png" alt="LLVM-TA+" width=30%></>
+    <img src="./assets/LLVM-TA+.png" alt="SYSU-TA" width=30%></>
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
         <img src="https://img.shields.io/badge/RTS-SYSU-brightgreen.svg">
     </a>
     <a href="https://github.com/RTS-SYSU/llvmta" rel="nofollow">
-        <img src="https://img.shields.io/badge/LLVM-TA+-blue.svg">
+        <img src="https://img.shields.io/badge/SYSU-TA-blue.svg">
     </a>
     <a href="https://github.com/RTS-SYSU/llvmta" rel="nofollow">
         <img src="https://img.shields.io/badge/Multi_Core-WCET_Analysis-yellowgreen.svg">
@@ -20,11 +20,11 @@
     <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
 
-[LLVM-TA+](https://github.com/RTS-SYSU/llvmta) is a static analysis tool for WCET(Worst Case Execution Time) of multi-core real-time systems based on LLVM.
+[SYSU-TA](https://github.com/RTS-SYSU/llvmta) is a static analysis tool for WCET(Worst Case Execution Time) of multi-core real-time systems based on LLVM.
 
 ## Introduction
 
-For the static analysis method of WCET in real-time systems, there are many research results, such as commercial tools [aiT](https://www.absint.com/ait/index.htm), and open-source tools in academia, such as [OTAWA](https://www.tracesgroup.net/otawa/), [Chronos](https://www.comp.nus.edu.sg/~rpembed/chronos/), [Heptane](https://team.inria.fr/pacap/software/heptane/), [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta), etc., but most of these analysis tools only support single-core systems. Compared with single-core systems, multi-core systems are generally configured with shared resources to meet high-performance requirements, which leads to complex resource contention situations, making it difficult for single-core analysis tools to be directly applied to multi-core systems. Based on this, this project extends the open-source WCET analysis tool [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta) for single-core systems to support multi-core systems and analyze shared cache, and further tighten the upper bound of WCET, named as LLVM-TA+.
+For the static analysis method of WCET in real-time systems, there are many research results, such as commercial tools [aiT](https://www.absint.com/ait/index.htm), and open-source tools in academia, such as [OTAWA](https://www.tracesgroup.net/otawa/), [Chronos](https://www.comp.nus.edu.sg/~rpembed/chronos/), [Heptane](https://team.inria.fr/pacap/software/heptane/), [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta), etc., but most of these analysis tools only support single-core systems. Compared with single-core systems, multi-core systems are generally configured with shared resources to meet high-performance requirements, which leads to complex resource contention situations, making it difficult for single-core analysis tools to be directly applied to multi-core systems. Based on this, this project extends the open-source WCET analysis tool [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta) for single-core systems to support multi-core systems and analyze shared cache, and further tighten the upper bound of WCET, named as SYSU-TA.
 
 ## Design Goal
 
@@ -33,7 +33,7 @@ Our goal is to provide a static analysis tool for WCET of multi-core real-time s
 To achieve this, we combine the existing LLVM-TA with the multi-core analysis method, and further improve the analysis accuracy and efficiency. The whole process can be divided into the following steps:
 
 1. Value Analysis: Analyze the data of registers and memory at each position of the program, and use it as the input of the subsequent processor behavior analysis.
-2. Control Flow Analysis: Analyze the control flow of the program to obtain the constraint conditions of the possible execution paths of the program, such as the number of iterations of the loop, etc. LLVM-TA+ uses source code-based control flow analysis, that is, analyzing the control flow of the program through the SSA representation of LLVM(LLVM-IR).
+2. Control Flow Analysis: Analyze the control flow of the program to obtain the constraint conditions of the possible execution paths of the program, such as the number of iterations of the loop, etc. SYSU-TA uses source code-based control flow analysis, that is, analyzing the control flow of the program through the SSA representation of LLVM(LLVM-IR).
 3. Processor Behavior Analysis: Through control flow analysis, we can get multiple possible execution paths of the program, and processor behavior analysis is to analyze the execution situation of these paths on the processor, such as the cache hit situation, etc., and calculate the execution time limit of the basic block in the path.
 4. Bound Calculation: Based on the results of control flow analysis and processor behavior analysis, we can get the bound of the program on a specific execution path, and then calculate the WCET of the program.
 5. Life Time Analysis: For multi-core systems, it is necessary to analyze the life cycle of tasks to determine the resource contention that may be involved in the execution of program fragments on the processor.
@@ -45,7 +45,7 @@ To achieve this, we combine the existing LLVM-TA with the multi-core analysis me
 
 ### WCET Static Analysis for Multi-core
 
-To evaluate the LLVM-TA+ on multi-core analysis, we conducted experiments on Raspberry Pi 4B, which has a quad-core ARM Cortex-A72 processor with shared L2 cache. Details of the system configuration are shown in the following table:
+To evaluate the SYSU-TA on multi-core analysis, we conducted experiments on Raspberry Pi 4B, which has a quad-core ARM Cortex-A72 processor with shared L2 cache. Details of the system configuration are shown in the following table:
 
 <table align="center">
 <thead>
@@ -116,7 +116,7 @@ We use [TACLeBench](https://github.com/tacle/tacle-bench) as our test benchmark,
 <thead>
 <tr>
 <th align="center">Task</th>
-<th align="center">WCET analyzed by LLVM-TA+(Cycle)</th>
+<th align="center">WCET analyzed by SYSU-TA(Cycle)</th>
 <th align="center">Value obtained from Raspi 4B(Cycle)</th>
 <th align="center">Ratio of WCET/Actual</th>
 </tr>
@@ -173,19 +173,19 @@ We use [TACLeBench](https://github.com/tacle/tacle-bench) as our test benchmark,
 </tbody>
 </table>
 
-We can see that the WCET analyzed by LLVM-TA+ is close to the actual value obtained from the Raspberry Pi 4B, the ratio of WCET to the actual value is between 1.29 and 1.73, which indicates that LLVM-TA+ can effectively analyze the WCET of multi-core systems.
+We can see that the WCET analyzed by SYSU-TA is close to the actual value obtained from the Raspberry Pi 4B, the ratio of WCET to the actual value is between 1.29 and 1.73, which indicates that SYSU-TA can effectively analyze the WCET of multi-core systems.
 
 ### WCET Tightening compared with LLVMTA
 
-To further verify that [LLVM-TA+](https://github.com/RTS-SYSU/llvmta) can tighten the WCET upper bound, we compared the analysis results of LLVM-TA+ and [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta) on the above tasks, and the experimental results are as follows:
+To further verify that [SYSU-TA](https://github.com/RTS-SYSU/llvmta) can tighten the WCET upper bound, we compared the analysis results of SYSU-TA and [LLVMTA](https://gitlab.cs.uni-saarland.de/reineke/llvmta) on the above tasks, and the experimental results are as follows:
 
 <table align="center">
 <thead>
 <tr>
 <th align="center">Tasks</th>
-<th align="center">LLVM-TA+</th>
+<th align="center">SYSU-TA</th>
 <th align="center">LLVMTA</th>
-<th align="center">Ratio LLVM-TA+/LLVMTA</th>
+<th align="center">Ratio SYSU-TA/LLVMTA</th>
 </tr>
 </thead>
 <tbody>
@@ -240,7 +240,7 @@ To further verify that [LLVM-TA+](https://github.com/RTS-SYSU/llvmta) can tighte
 </tbody>
 </table>
 
-It is clearly that the analysis value of LLVM-TA+ is much smaller than that of LLVMTA, which indicates that LLVM-TA+ can tighten the WCET upper bound.
+It is clearly that the analysis value of SYSU-TA is much smaller than that of LLVMTA, which indicates that SYSU-TA can tighten the WCET upper bound.
 
 ## Scripts
 
